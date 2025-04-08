@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Results Comparison</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
+    <style>
+        .container-fluid {
+            max-width: 95%;
+            margin-top: 20px;
+        }
+
+        .section-title {
+            margin-bottom: 15px;
+            border-bottom: 1px solid #dee2e6;
+            padding-bottom: 8px;
+        }
+
+        .stat-card {
+            border-left: 4px solid #007bff;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #f8f9fa;
+        }
+
+        .stat-label {
+            font-weight: bold;
+        }
+
+        .stat-value {
+            font-size: 1.2em;
+        }
+
+        .stat-explanation {
+            font-size: 0.85em;
+            color: #6c757d;
+            margin-top: 5px;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 0.8em;
+            color: #666;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        .table-responsive {
+            margin-bottom: 30px;
+        }
+
+        .nav-tabs {
+            margin-bottom: 20px;
+        }
+
+        .tab-pane {
+            padding-top: 15px;
+        }
+
+        .table {
+            font-size: 0.9em;
+        }
+
+        .table th {
+            background-color: #f1f1f1;
+        }
+
+        .sticky-top {
+            top: 10px;
+            z-index: 1000;
+        }
+
+        /* Modal for comment display */
+        .modal-comment {
+            white-space: pre-wrap;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1>Comparison Results</h1>
+            <a href="{{ url_for('index') }}" class="btn btn-outline-secondary">New Comparison</a>
+        </div>
+
+        <div class="alert alert-success">
+            <h4 class="alert-heading">Complete!</h4>
+            <p>Comparison between <strong>{{ stats.file1_name }}</strong> and <strong>{{ stats.file2_name }}</strong>
+            </p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 sticky-top">
+                <!-- Sidebar with stats -->
+                <div class="card mb-4">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0">Overview</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="stat-card">
+                            <div class="stat-label">{{ stats.file1_name }} (Total):</div>
+                            <div class="stat-value">{{ stats.file1_total }}</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-label">{{ stats.file2_name }} (Total):</div>
+                            <div class="stat-value">{{ stats.file2_total }}</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-4">
+                    <div class="card-header bg-success text-white">
+                        <h5 class="mb-0">Pass/Fail</h5>
+                    </div>
+                    <div class="card-body p-2">
+                        <div class="stat-card border-success">
+                            <div class="stat-label">{{ stats.file1_name }} Passed:</div>
+                            <div class="stat-value text-success">{{ stats.file1_passed }}</div>
+                        </div>
+                        <div class="stat-card border-danger">
+                            <div class="stat-label">{{ stats.file1_name }} Failed:</div>
+                            <div class="stat-value text-danger">{{ stats.file1_failed }}</div>
+                        </div>
+                        <div class="stat-card border-success">
+                            <div class="stat-label">{{ stats.file2_name }} Passed:</div>
+                            <div class="stat-value text-success">{{ stats.file2_passed }}</div>
+                        </div>
+                        <div class="stat-card border-danger">
+                            <div class="stat-label">{{ stats.file2_name }} Failed:</div>
+                            <div class="stat-value text-danger">{{ stats.file2_failed }}</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-4">
+                    <div class="card-header bg-info text-white">
+                        <h5 class="mb-0">Detailed Comparison</h5>
+                    </div>
+                    <div class="card-body p-2">
+                        <div class="stat-card">
+                            <div class="stat-label">Failed only in {{ stats.file1_name }}:</div>
+                            <div class="stat-value">{{ stats.fail_in_file1_only }}</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-label">Failed only in {{ stats.file2_name }}:</div>
+                            <div class="stat-value">{{ stats.fail_in_file2_only }}</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-label">Failed in both:</div>
+                            <div class="stat-value">{{ stats.fail_in_both }}</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-label">Passed only in {{ stats.file1_name }}:</div>
+                            <div class="stat-value">{{ stats.pass_in_file1_only }}</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-label">Passed only in {{ stats.file2_name }}:</div>
+                            <div class="stat-value">{{ stats.pass_in_file2_only }}</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-label">Passed in both:</div>
+                            <div class="stat-value">{{ stats.pass_in_both }}</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header bg-warning text-dark">
+                        <h5 class="mb-0">Minor Bugs</h5>
+                    </div>
+                    <div class="card-body p-2">
+                        <div class="stat-card">
+                            <div class="stat-label">Minor bugs in {{ stats.file1_name }}:</div>
+                            <div class="stat-value">{{ stats.file1_minor }}</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-label">Minor bugs in {{ stats.file2_name }}:</div>
+                            <div class="stat-value">{{ stats.file2_minor }}</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-label">Minor bugs only in {{ stats.file1_name }}:</div>
+                            <div class="stat-value">{{ stats.minor_in_file1_only }}</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-label">Minor bugs only in {{ stats.file2_name }}:</div>
+                            <div class="stat-value">{{ stats.minor_in_file2_only }}</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-label">Minor bugs in both:</div>
+                            <div class="stat-value">{{ stats.minor_in_both }}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+                <!-- Tabs for different result tables -->
+                <ul class="nav nav-tabs" id="resultTabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="failed-tab" data-bs-toggle="tab" data-bs-target="#failed"
+                            type="button" role="tab">Failed Cases</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="passed-tab" data-bs-toggle="tab" data-bs-target="#passed"
+                            type="button" role="tab">Passed Cases</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="minor-tab" data-bs-toggle="tab" data-bs-target="#minor"
+                            type="button" role="tab">Minor Bugs</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="all-minor-tab" data-bs-toggle="tab" data-bs-target="#all-minor"
+                            type="button" role="tab">All Minor Bugs</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="minor-by-plan-tab" data-bs-toggle="tab"
+                            data-bs-target="#minor-by-plan" type="button" role="tab">Minor Bugs By Plan</button>
+                    </li>
+                </ul>
+
+                <div class="tab-content" id="resultTabsContent">
+                    <!-- Failed Cases Tab -->
+                    <div class="tab-pane fade show active" id="failed" role="tabpanel" aria-labelledby="failed-tab">
+                        <h3 class="section-title">Failed Cases</h3>
+
+                        <h4>{{ results.display_names.failed_file1_only }}</h4>
+                        <div class="table-responsive">
+                            {{ results.failed_file1_only | safe }}
+                        </div>
+
+                        <h4>{{ results.display_names.failed_file2_only }}</h4>
+                        <div class="table-responsive">
+                            {{ results.failed_file2_only | safe }}
+                        </div>
+
+                        <h4>{{ results.display_names.failed_both }}</h4>
+                        <div class="table-responsive">
+                            {{ results.failed_both | safe }}
+                        </div>
+                    </div>
+
+                    <!-- Passed Cases Tab -->
+                    <div class="tab-pane fade" id="passed" role="tabpanel" aria-labelledby="passed-tab">
+                        <h3 class="section-title">Passed Cases</h3>
+
+                        <h4>{{ results.display_names.passed_file1_only }}</h4>
+                        <div class="table-responsive">
+                            {{ results.passed_file1_only | safe }}
+                        </div>
+
+                        <h4>{{ results.display_names.passed_file2_only }}</h4>
+                        <div class="table-responsive">
+                            {{ results.passed_file2_only | safe }}
+                        </div>
+
+                        <h4>{{ results.display_names.passed_both }}</h4>
+                        <div class="table-responsive">
+                            {{ results.passed_both | safe }}
+                        </div>
+                    </div>
+
+                    <!-- Minor Issues Tab -->
+                    <div class="tab-pane fade" id="minor" role="tabpanel" aria-labelledby="minor-tab">
+                        <h3 class="section-title">Minor Bugs</h3>
+
+                        <h4>{{ results.display_names.minor_file1_only }}</h4>
+                        <div class="table-responsive">
+                            {{ results.minor_file1_only | safe }}
+                        </div>
+
+                        <h4>{{ results.display_names.minor_file2_only }}</h4>
+                        <div class="table-responsive">
+                            {{ results.minor_file2_only | safe }}
+                        </div>
+
+                        <h4>{{ results.display_names.minor_both }}</h4>
+                        <div class="table-responsive">
+                            {{ results.minor_both | safe }}
+                        </div>
+                    </div>
+
+                    <!-- All Minor Bugs Tab -->
+                    <div class="tab-pane fade" id="all-minor" role="tabpanel" aria-labelledby="all-minor-tab">
+                        <h3 class="section-title">All Minor Bugs</h3>
+                        <p class="text-muted">This tab shows all minor bugs from both files in one combined view.</p>
+
+                        <div class="table-responsive">
+                            {{ results.minor_all | safe }}
+                        </div>
+                    </div>
+                    <!-- Minor Bugs By Plan Tab -->
+                    <div class="tab-pane fade" id="minor-by-plan" role="tabpanel" aria-labelledby="minor-by-plan-tab">
+                        <h3 class="section-title">{{ results.display_names.minor_by_plan }}</h3>
+                        <p class="text-muted">This tab shows minor bugs organized by test plan.</p>
+
+                        {% if results.minor_by_plan %}
+                        <div class="accordion" id="planAccordion">
+                            {% for plan_name, plan_table in results.minor_by_plan.items() %}
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading-{{ loop.index }}">
+                                    <button class="accordion-button {% if not loop.first %}collapsed{% endif %}"
+                                        type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse-{{ loop.index }}"
+                                        aria-expanded="{{ 'true' if loop.first else 'false' }}"
+                                        aria-controls="collapse-{{ loop.index }}">
+                                        {{ plan_name }} ({{ plan_table | count_table_rows }})
+                                    </button>
+                                </h2>
+                                <div id="collapse-{{ loop.index }}"
+                                    class="accordion-collapse collapse {% if loop.first %}show{% endif %}"
+                                    aria-labelledby="heading-{{ loop.index }}">
+                                    <div class="accordion-body">
+                                        <div class="table-responsive">
+                                            {{ plan_table | safe }}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                        {% else %}
+                        <div class="alert alert-info">No minor bugs by plan data available.</div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="footer">
+            <p>Test Results Comparison Tool - &copy; 2025</p>
+        </div>
+    </div>
+
+    <!-- Modal for displaying full comment text -->
+    <div class="modal fade" id="commentModal" tabindex="-1" aria-labelledby="commentModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="commentModalLabel">Comment</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="fullComment" class="modal-comment"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap5.min.js"></script>
+    <script>
+        // Initialize DataTables for all tables
+        $(document).ready(function () {
+            $('table.table').each(function () {
+                $(this).DataTable({
+                    "pageLength": 10,
+                    "lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
+                    "language": {
+                        "search": "Search:",
+                        "lengthMenu": "Show _MENU_ entries",
+                        "info": "Showing _START_ to _END_ of _TOTAL_ entries",
+                        "infoEmpty": "Showing 0 to 0 of 0 entries",
+                        "infoFiltered": "(filtered from _MAX_ entries)",
+                        "paginate": {
+                            "first": "First",
+                            "last": "Last",
+                            "next": "Next",
+                            "previous": "Previous"
+                        }
+                    }
+                });
+            });
+        });
+
+        // Function to show full comment in modal
+        function showFullComment(commentId) {
+            var fullText = "";
+
+            // Try to get from data attribute first
+            var commentElem = $("[onclick*='" + commentId + "']");
+            if (commentElem.length > 0) {
+                fullText = commentElem.data("fulltext");
+            }
+            // If not found, try to get from comments data
+            else if (typeof commentsData !== 'undefined' && commentsData[commentId]) {
+                fullText = commentsData[commentId];
+            }
+
+            if (fullText) {
+                $("#fullComment").html(fullText); // Changed from .text() to .html() to render HTML
+                var commentModal = new bootstrap.Modal(document.getElementById('commentModal'));
+                commentModal.show();
+            }
+        }
+    </script>
+</body>
+
+</html>

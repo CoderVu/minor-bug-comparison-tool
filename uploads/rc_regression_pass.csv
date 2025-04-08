@@ -1,0 +1,2019 @@
+"ID","Title","Assigned To","Case ID","Comment","Defects","Elapsed","Forecast","In Progress","Plan","Plan ID","Priority","References","Run","Run Configuration","Run ID","Section","Section Depth","Section Description","Status","Tested By","Tested On","Type"
+"T97400969","The App does not crash on first launch","","C33714590","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","","RC Regression Pass","Android - Phone","R134519","Tech Alpha - Basic Smoke Tests","0","List of test cases for a high-level smoke test pass, explicitly for Tech Alpha. With Passport being more full-featured and requiring more and different test cases down the line, these should be no longer used in their current state once past Tech Alpha","Passed","Vu Nguyen","4/4/2025 2:09 AM","Smoke Test"
+"T97400970","The App does not crash on subsequent launches","","C33714591","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","","RC Regression Pass","Android - Phone","R134519","Tech Alpha - Basic Smoke Tests","0","List of test cases for a high-level smoke test pass, explicitly for Tech Alpha. With Passport being more full-featured and requiring more and different test cases down the line, these should be no longer used in their current state once past Tech Alpha","Passed","Vu Nguyen","4/4/2025 2:09 AM","Smoke Test"
+"T97400971","The App has the correct Icon and Name","","C33714594","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","","RC Regression Pass","Android - Phone","R134519","Tech Alpha - Basic Smoke Tests","0","List of test cases for a high-level smoke test pass, explicitly for Tech Alpha. With Passport being more full-featured and requiring more and different test cases down the line, these should be no longer used in their current state once past Tech Alpha","Passed","Vu Nguyen","4/4/2025 2:09 AM","Smoke Test"
+"T97401047","Home View's header displays the connected system's name","","C34238481","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","PMA-4177, PMA-2806","RC Regression Pass","Android - Phone","R134519","Miniplayer","1","","Passed","Vu Nguyen","4/4/2025 2:17 AM","Functional"
+"T97401080","Miniplayer displays correct play state","","C34371039","Bypassed with minor bug PMA-18472: [Both] Histogram still shows in Miniplayer even when the TV source is paused
+
+Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1
+
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Miniplayer","1","","Passed","Vu Nguyen","4/4/2025 2:37 AM","Functional"
+"T97401023","Miniplayer Playback and Output Selector buttons (non Home Theater)","","C33838692","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","PMA-1336","RC Regression Pass","Android - Phone","R134519","Miniplayer","1","","Passed","Vu Nguyen","4/4/2025 2:40 AM","Functional"
+"T97400974","Miniplayer shows correct metadata, and attribution","","C33717339","PMA-19081: [Android] [Airplay] Missing the Explicit badge on Miniplayer, System view and Output picker
+
+Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1
+","PMA-19081","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","PMA-84","RC Regression Pass","Android - Phone","R134519","Miniplayer","1","","Failed","Vu Nguyen","4/4/2025 2:58 AM","Functional"
+"T97400973","Miniplayer shows correct group names","","C33717289","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","PMA-308","RC Regression Pass","Android - Phone","R134519","Miniplayer","1","","Passed","Vu Nguyen","4/4/2025 3:02 AM","Functional"
+"T97401041","Miniplayer with player that have a long room name","","C34234252","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","PMA-2070","RC Regression Pass","Android - Phone","R134519","Miniplayer","1","","Passed","Vu Nguyen","4/4/2025 3:04 AM","Functional"
+"T97401040","Miniplayer Volume controls and Mute - Single Player","","C34234251","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","PMA-2070","RC Regression Pass","Android - Phone","R134519","Miniplayer","1","","Passed","Vu Nguyen","4/4/2025 3:06 AM","Functional"
+"T97401307","Miniplayer Fixed Volume Control","","C35018510","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","PMA-3871, PMA-2070","RC Regression Pass","Android - Phone","R134519","Miniplayer","1","","Passed","Vu Nguyen","4/4/2025 3:11 AM","Functional"
+"T97401043","Play Progress indicator in Miniplayer","","C34234255","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","PMA-1974","RC Regression Pass","Android - Phone","R134519","Miniplayer","1","","Passed","Vu Nguyen","4/4/2025 3:11 AM","Functional"
+"T97401272","Miniplayer battery icons","","C34887456","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","https://jira.sonos.com/browse/PMA-5783, https://jira.sonos.com/browse/PMA-6901","RC Regression Pass","Android - Phone","R134519","Miniplayer","1","","Passed","Vu Nguyen","4/4/2025 3:06 AM","Functional"
+"T97401008","System View manual group selection","","C33835312","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","System View","1","","Passed","Vu Nguyen","4/4/2025 3:16 AM","Functional"
+"T97401048","System View displays correct group state","","C34238485","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","System View","1","","Passed","Vu Nguyen","4/4/2025 3:19 AM","Functional"
+"T97401024","System View Playback and Output Selector buttons (non Home Theater)","","C33838696","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","PMA-382, PMA-1336, PMA-1135, PMA-1137","RC Regression Pass","Android - Phone","R134519","System View","1","","Passed","Vu Nguyen","4/4/2025 3:19 AM","Functional"
+"T97401057","System View activity cells shows correct metadata and partner attribution","","C34268936","PMA-19081: [Android] [Airplay] Missing the Explicit badge on Miniplayer, System view and Output picker
+
+Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1
+","PMA-19081","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","PMA-84, PMA-95","RC Regression Pass","Android - Phone","R134519","System View","1","","Failed","Vu Nguyen","4/4/2025 3:20 AM","Functional"
+"T97401056","System View interaction gestures","","C34268935","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","PMA-308","RC Regression Pass","Android - Phone","R134519","System View","1","","Passed","Vu Nguyen","4/4/2025 3:21 AM","Functional"
+"T97401027","System View shows correct group names","","C33840279","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","PMA-3982, PMA-4002","RC Regression Pass","Android - Phone","R134519","System View","1","","Passed","Vu Nguyen","4/4/2025 3:21 AM","Functional"
+"T97401044","System View shows correct Group Coordinator","","C34237897","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","System View","1","","Passed","Vu Nguyen","4/4/2025 3:22 AM","Functional"
+"T97401042","System View shows/hides depending if players are available in the household. (Power Off Player)","","C34234253","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","PMA-2070, PMA-1979, PMA-2247, PMA-2249, PMA-5741","RC Regression Pass","Android - Phone","R134519","System View","1","","Passed","Vu Nguyen","4/4/2025 3:23 AM","Functional"
+"T97401070","System View Volume Control","","C34363106","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","PMA-3871, PMA-2070","RC Regression Pass","Android - Phone","R134519","System View","1","","Passed","Vu Nguyen","4/4/2025 3:24 AM","Functional"
+"T97401071","System View Fixed Volume Control","","C34363230","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","PMA-3871, PMA-2070","RC Regression Pass","Android - Phone","R134519","System View","1","","Passed","Vu Nguyen","4/4/2025 3:24 AM","Functional"
+"T97401308","Play Progress indicator in System View","","C35018511","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","PMA-1974","RC Regression Pass","Android - Phone","R134519","System View","1","","Passed","Vu Nguyen","4/4/2025 3:24 AM","Functional"
+"T97401025","Now Playing Playback Button","","C33838697","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","PMA-309","RC Regression Pass","Android - Phone","R134519","Now Playing","1","","Passed","Vu Nguyen","4/4/2025 3:28 AM","Functional"
+"T97400972","Now Playing shows correct metadata","","C33717188","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","PMA-309","RC Regression Pass","Android - Phone","R134519","Now Playing","1","","Passed","Vu Nguyen","4/4/2025 3:28 AM","Functional"
+"T97401062","Now Playing shows correct attribution","","C34353670","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","PMA-3998","RC Regression Pass","Android - Phone","R134519","Now Playing","1","","Passed","Vu Nguyen","4/4/2025 3:28 AM","Functional"
+"T97400976","Now Playing volume control (Single Group)","","C33768918","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","PMA-309","RC Regression Pass","Android - Phone","R134519","Now Playing","1","","Passed","Vu Nguyen","4/4/2025 3:28 AM","Functional"
+"T97401309","Now Playing Volume Control (Group Volume)","","C35047081","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","PMA-5480, /PMA-6428","RC Regression Pass","Android - Phone","R134519","Now Playing","1","","Passed","Vu Nguyen","4/4/2025 3:28 AM","Functional"
+"T97401065","Now Playing Fixed Volume","","C34353673","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","PMA-2277","RC Regression Pass","Android - Phone","R134519","Now Playing","1","","Passed","Vu Nguyen","4/4/2025 3:28 AM","Functional"
+"T97400979","Track Skipping (including shuffle)","","C33817217","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","PMA-672, PMA-673","RC Regression Pass","Android - Phone","R134519","Now Playing","1","","Passed","Vu Nguyen","4/4/2025 3:35 AM","Functional"
+"T97400977","Track Skipping (Repeat / Repeat All)","","C33769315","Bypassed with Minor bug: PMA-18839 - [Both] Music playback does not cycle to the last track in the queue after tapping on the Previous button before 3 seconds elapsed on the first track
+
+Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Now Playing","1","","Passed","Vu Nguyen","4/4/2025 3:38 AM","Functional"
+"T97401058","Now Playing Track Progress","","C34269049","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","PMA-2079, PMA-1974","RC Regression Pass","Android - Phone","R134519","Now Playing","1","","Passed","Vu Nguyen","4/4/2025 3:43 AM","Functional"
+"T97401059","Now Playing Track Seeking","","C34269051","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","PMA-2079, PMA-1974","RC Regression Pass","Android - Phone","R134519","Now Playing","1","","Passed","Vu Nguyen","4/4/2025 3:43 AM","Functional"
+"T97401063","Now Playing Like/Dislike buttons","","C34353671","Bypassed with minor bug: PMA-10579: [Both] SPIKE: Figure out how to handle when we don't get a ratings response back in time
+
+Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","PMA-4000, PMA-7909","RC Regression Pass","Android - Phone","R134519","Now Playing","1","","Passed","Vu Nguyen","4/4/2025 3:44 AM","Functional"
+"T97401064","Now Playing Badging","","C34353672","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","PMA-7236, PMA-6527, PMA-10629, PMA-10632","RC Regression Pass","Android - Phone","R134519","Now Playing","1","","Passed","Vu Nguyen","4/4/2025 4:17 AM","Functional"
+"T97401116","Now Playing Home Theater","","C34375770","Bypassed with ninor bug : PMA-20618
+[Android] Background color of """"Night Sound"""" and """"Speech Enhancement"""" buttons is inconsistent when in ON state
+
+Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","PMA-1160, PMA-1159","RC Regression Pass","Android - Phone","R134519","Now Playing","1","","Passed","Vu Nguyen","4/4/2025 4:08 AM","Functional"
+"T97401098","Now Playing Line-in","","C34375300","Bypassed with minor bug: PMA-19131 [Android] 'Previous track' button is enable when playing Station/Live station/Line-in
+
+Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","PMA-1162, PMA-1161","RC Regression Pass","Android - Phone","R134519","Now Playing","1","","Passed","Vu Nguyen","4/4/2025 4:08 AM","Functional"
+"T97401109","Now Playing background color","","C34375342","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","PMA-2329","RC Regression Pass","Android - Phone","R134519","Now Playing","1","","Passed","Vu Nguyen","4/4/2025 4:08 AM","Functional"
+"T97401274","Now Playing battery icons","","C34887459","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","https://jira.sonos.com/browse/PMA-2692, https://jira.sonos.com/browse/PMA-6900","RC Regression Pass","Android - Phone","R134519","Now Playing","1","","Passed","Vu Nguyen","4/4/2025 4:08 AM","Functional"
+"T97401306","Now Playing - Single player household","","C35010951","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Now Playing","1","","Passed","Vu Nguyen","4/4/2025 4:08 AM","Functional"
+"T97401290","Sleep Timer stops the music after a short set duration (15 minutes)","","C34978483","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Sleep Timer","2","","Passed","Vu Nguyen","4/4/2025 4:10 AM","Unassigned"
+"T97401291","Sleep Timer stops the music after a long set duration (1 hour)","","C34978486","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Sleep Timer","2","","Passed","Vu Nguyen","4/4/2025 4:10 AM","Functional"
+"T97401292","Sleep Timer Off Mode","","C34978488","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Sleep Timer","2","","Passed","Vu Nguyen","4/4/2025 4:19 AM","Functional"
+"T97401293","Sleep Timer Interruption","","C34978491","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Sleep Timer","2","","Passed","Vu Nguyen","4/4/2025 4:10 AM","Functional"
+"T97401294","Sleep Timer activated from voice assistants","","C34978806","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Sleep Timer","2","","Passed","Vu Nguyen","4/4/2025 6:30 AM","Functional"
+"T97401295","Sleep Timer deactivated from voice assistants","","C34978819","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Sleep Timer","2","","Passed","Vu Nguyen","4/4/2025 6:39 AM","Functional"
+"T97401296","Sleep Timer accessibility support","","C34978827","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Sleep Timer","2","","Passed","Vu Nguyen","4/4/2025 4:24 AM","Functional"
+"T97401297","Sleep Timer error case","","C34978863","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Sleep Timer","2","","Passed","Vu Nguyen","4/4/2025 4:28 AM","Functional"
+"T97401298","Sleep Timer duration appears in More Menu and Sleep Timer menu after being set","","C34978864","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Sleep Timer","2","","Passed","Vu Nguyen","4/4/2025 4:27 AM","Functional"
+"T97401299","Sleep Timer duration expires while content is paused/stopped","","C34978884","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Sleep Timer","2","","Passed","Vu Nguyen","4/4/2025 4:10 AM","Functional"
+"T97401045","Bringing up the Output Picker","","C34238465","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","PMA-144, PMA-97","RC Regression Pass","Android - Phone","R134519","Output Selector","1","","Passed","Vu Nguyen","4/4/2025 4:42 AM","Functional"
+"T97401051","Output Picker Button (Now Playing)","","C34262421","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Output Selector","1","","Passed","Vu Nguyen","4/4/2025 4:42 AM","Functional"
+"T97401046","Output Picker displays all available players/groups","","C34238480","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Output Selector","1","","Passed","Vu Nguyen","4/4/2025 4:42 AM","Functional"
+"T97401049","Output Picker Volume control (single player group)","","C34255454","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Output Selector","1","","Passed","Vu Nguyen","4/4/2025 4:42 AM","Functional"
+"T97401097","Output Picker Volume control (multi player group)","","C34375237","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Output Selector","1","","Passed","Vu Nguyen","4/4/2025 4:42 AM","Functional"
+"T97401050","Output Picker Battery Status","","C34255564","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Output Selector","1","","Passed","Vu Nguyen","4/4/2025 4:41 AM","Functional"
+"T97401110","Output Picker product name subtitle","","C34375700","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","PMA-4546","RC Regression Pass","Android - Phone","R134519","Output Selector","1","","Passed","Vu Nguyen","4/4/2025 4:42 AM","Unassigned"
+"T97401154","Output Picker Light/Dark Mode","","C34377613","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Output Selector","1","","Passed","Vu Nguyen","4/4/2025 4:38 AM","Functional"
+"T97401273","Output Picker battery icons","","C34887458","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","https://jira.sonos.com/browse/PMA-5783, https://jira.sonos.com/browse/PMA-9166","RC Regression Pass","Android - Phone","R134519","Output Selector","1","","Passed","Vu Nguyen","4/4/2025 4:29 AM","Functional"
+"T97401052","Accessing the Queue","","C34267365","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Queue","1","","Passed","Vu Nguyen","4/4/2025 4:37 AM","Functional"
+"T97401311","Hiding of the Queue","","C35070613","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Queue","1","","Passed","Vu Nguyen","4/4/2025 4:36 AM","Functional"
+"T97401313","Queue Shuffle / Repeat / Track selection","","C35070615","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Queue","1","","Passed","Vu Nguyen","4/4/2025 4:36 AM","Functional"
+"T97401053","Reordering items in / Editing the Queue","","C34267366","Bypassed with minor bug: PMA-17453 [Android] Histogram in Queue briefly shows on incorrect track after a delete and reorder but corrects itself
+
+Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","PMA-13653, PMA-14821","RC Regression Pass","Android - Phone","R134519","Queue","1","","Passed","Vu Nguyen","4/4/2025 4:33 AM","Functional"
+"T97401055","Deleting items in the Queue","","C34268551","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","PMA-13654, PMA-14820","RC Regression Pass","Android - Phone","R134519","Queue","1","","Passed","Vu Nguyen","4/4/2025 4:34 AM","Functional"
+"T97401054","Clearing the Queue","","C34268539","PMA-19420: [Android] Shuffle/Repeat/Previous/More buttons on Now Playing screen are shown as enabled after clearing queue
+
+Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1
+","PMA-19420","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Queue","1","","Failed","Vu Nguyen","4/4/2025 4:31 AM","Functional"
+"T97401312","Spotify Direct Control Queue","","C35070614","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","PMA-8549","RC Regression Pass","Android - Phone","R134519","Queue","1","","Passed","Vu Nguyen","4/4/2025 4:30 AM","Functional"
+"T97401155","Queue Light/Dark Mode","","C34377616","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Queue","1","","Passed","Vu Nguyen","4/4/2025 4:30 AM","Functional"
+"T97401165","Default Signed Out Home Feed State (Guest Mode)","","C34381153","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Home Feed","0","","Passed","Vu Nguyen","4/4/2025 4:44 AM","Functional"
+"T97401166","Signed In Home Feed State","","C34381154","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","","RC Regression Pass","Android - Phone","R134519","Home Feed","0","","Passed","Vu Nguyen","4/4/2025 4:44 AM","Functional"
+"T97401167","Reordering Home Feed Sections","","C34381155","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Home Feed","0","","Passed","Vu Nguyen","4/4/2025 4:44 AM","Functional"
+"T97401315","Create New Sonos Playlist from a Track","","C35106640","Not applicable on current build","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Sonos Playlists","2","","Not Applicable","Vu Nguyen","4/4/2025 4:30 AM","Functional"
+"T97401316","Create New Sonos Playlist from an Album","","C35106699","Not applicable on current build","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Sonos Playlists","2","","Not Applicable","Vu Nguyen","4/4/2025 4:30 AM","Functional"
+"T97401317","Create New Sonos Playlist from an Episode","","C35106700","Not applicable on current build","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Sonos Playlists","2","","Not Applicable","Vu Nguyen","4/4/2025 4:30 AM","Functional"
+"T97401318","Radio Stations Cannot Be Added to Sonos Playlists","","C35106701","Not applicable on current build","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Sonos Playlists","2","","Not Applicable","Vu Nguyen","4/4/2025 4:30 AM","Functional"
+"T97401319","Add a Track to an Existing Sonos Playlist","","C35106702","Not applicable on current build","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Sonos Playlists","2","","Not Applicable","Vu Nguyen","4/4/2025 4:30 AM","Functional"
+"T97401320","Add an Album to an Existing Sonos Playlist","","C35106703","Not applicable on current build","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Sonos Playlists","2","","Not Applicable","Vu Nguyen","4/4/2025 4:30 AM","Functional"
+"T97401321","Add a Playlist to an Existing Sonos Playlist","","C35106704","Not applicable on current build","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Sonos Playlists","2","","Not Applicable","Vu Nguyen","4/4/2025 4:30 AM","Functional"
+"T97401322","Deleting Sonos Playlists","","C35106705","Not applicable on current build","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Sonos Playlists","2","","Not Applicable","Vu Nguyen","4/4/2025 4:30 AM","Functional"
+"T97401323","Deleting Items Within A Sonos Playlists","","C35106707","Not applicable on current build","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Sonos Playlists","2","","Not Applicable","Vu Nguyen","4/4/2025 4:30 AM","Functional"
+"T97401324","Renaming A Sonos Playlists","","C35106708","Not applicable on current build","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Sonos Playlists","2","","Not Applicable","Vu Nguyen","4/4/2025 4:30 AM","Functional"
+"T97401325","Reordering Sonos Playlist Items","","C35106709","Not applicable on current build","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Sonos Playlists","2","","Not Applicable","Vu Nguyen","4/4/2025 4:30 AM","Functional"
+"T97401326","Programmed Stations Cannot Be Added to Sonos Playlist from Now Playing","","C35106711","Not applicable on current build","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Sonos Playlists","2","","Not Applicable","Vu Nguyen","4/4/2025 4:30 AM","Functional"
+"T97401327","Create New Sonos Playlist from Now Playing","","C35106712","Not applicable on current build","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Sonos Playlists","2","","Not Applicable","Vu Nguyen","4/4/2025 4:30 AM","Functional"
+"T97401328","Add a Track to an Existing Sonos Playlist from Now Playing","","C35106713","Not applicable on current build","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Sonos Playlists","2","","Not Applicable","Vu Nguyen","4/4/2025 4:30 AM","Functional"
+"T97401329","New Sonos Playlist Appear in Recently Added","","C35106715","Not applicable on current build","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Sonos Playlists","2","","Not Applicable","Vu Nguyen","4/4/2025 4:30 AM","Functional"
+"T97401330","Sonos Playlist Empty State","","C35106716","Not applicable on current build","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Sonos Playlists","2","","Not Applicable","Vu Nguyen","4/4/2025 4:30 AM","Unassigned"
+"T97401331","Creating A New Sonos Playlist from Sonos Favorites","","C35106717","Not applicable on current build","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Sonos Playlists","2","","Not Applicable","Vu Nguyen","4/4/2025 4:30 AM","Unassigned"
+"T97401332","Create New Sonos Playlist from an Existing Playlist","","C35106720","Not applicable on current build","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Sonos Playlists","2","","Not Applicable","Vu Nguyen","4/4/2025 4:30 AM","Functional"
+"T97401333","Add an Episode to an Existing Sonos Playlist","","C35106721","Not applicable on current build","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Sonos Playlists","2","","Not Applicable","Vu Nguyen","4/4/2025 4:30 AM","Functional"
+"T97401334","Add a Sonos Playlist to Itself Multiple Times","","C35156862","Not applicable on current build","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Sonos Playlists","2","","Not Applicable","Vu Nguyen","4/4/2025 4:30 AM","Functional"
+"T97400980","‘Your Services’ swimlane displays all content services available","","C33834095","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","","RC Regression Pass","Android - Phone","R134519","Your Services","2","Displays your available music service providers","Passed","Vu Nguyen","4/4/2025 5:01 AM","Functional"
+"T97400981","‘Your Services’ swimlane displays a “+” Add Services button","","C33834096","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Your Services","2","Displays your available music service providers","Passed","Vu Nguyen","4/4/2025 5:01 AM","Unassigned"
+"T97400990","Get to “Service Home” from the Home page via “Your Services”","","C33834800","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","","RC Regression Pass","Android - Phone","R134519","Service Home","2","Service home is where a user can browse various content presented by the service","Passed","Vu Nguyen","4/4/2025 6:25 AM","Functional"
+"T97400991","Get to “Service Home” from the Search page via “Your Services”","","C33834801","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Service Home","2","Service home is where a user can browse various content presented by the service","Passed","Vu Nguyen","4/4/2025 6:27 AM","Functional"
+"T97400992","The Service Home page has a header","","C33834803","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Service Home","2","Service home is where a user can browse various content presented by the service","Passed","Vu Nguyen","4/4/2025 6:30 AM","Functional"
+"T97400993","The Service Home page has a button to switch user accounts in the HH","","C33834804","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Service Home","2","Service home is where a user can browse various content presented by the service","Passed","Vu Nguyen","4/4/2025 6:32 AM","Functional"
+"T97400994","(SMAPI Browse services) Service content lists/folders displayed via list view","","C33834825","CP-7536 - [Amazon Music] Missing container icon provided by the service
+
+Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1
+","CP-7536","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Service Home","2","Service home is where a user can browse various content presented by the service","Failed","Vu Nguyen","4/4/2025 6:34 AM","Functional"
+"T97400995","Get to the Container View from Service Home","","C33834826","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Container View","2","We will continue to honor partner-configured container views","Passed","Vu Nguyen","4/4/2025 6:40 AM","Functional"
+"T97400996","Get to the Container View from container folders “>” button","","C33834828","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Container View","2","We will continue to honor partner-configured container views","Passed","Vu Nguyen","4/4/2025 6:43 AM","Functional"
+"T97400997","Container View page has a header","","C33834870","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Container View","2","We will continue to honor partner-configured container views","Passed","Vu Nguyen","4/4/2025 6:44 AM","Functional"
+"T97400998","On the Container View page the name of the container is displayed","","C33834871","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Container View","2","We will continue to honor partner-configured container views","Passed","Vu Nguyen","4/4/2025 6:47 AM","Functional"
+"T97400999","Containers are presented in the format specified by partners","","C33834872","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Container View","2","We will continue to honor partner-configured container views","Passed","Vu Nguyen","4/4/2025 6:49 AM","Functional"
+"T97401026","'View All' Grid -should display 'Explicit' content Badging","","C33839535","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Container View","2","We will continue to honor partner-configured container views","Passed","Vu Nguyen","4/4/2025 6:50 AM","Functional"
+"T97401000","Various Hero View content types are browsable","","C33834873","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Content Hero View","2","Content Hero Views provide more information about an individual piece of content and/or the nested content within it","Passed","Vu Nguyen","4/4/2025 7:02 AM","Functional"
+"T97401271","Can play content from Content Hero View","","C34528380","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Content Hero View","2","Content Hero Views provide more information about an individual piece of content and/or the nested content within it","Passed","Vu Nguyen","4/4/2025 7:05 AM","Functional"
+"T97401001","Various content types display the Hero View presentation","","C33834874","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Content Hero View","2","Content Hero Views provide more information about an individual piece of content and/or the nested content within it","Passed","Vu Nguyen","4/4/2025 7:12 AM","Functional"
+"T97401002","Content header contains a Content image hero asset","","C33834875","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Content Hero View","2","Content Hero Views provide more information about an individual piece of content and/or the nested content within it","Passed","Vu Nguyen","4/4/2025 7:12 AM","Functional"
+"T97401003","Content header contains a Content title","","C33834876","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Content Hero View","2","Content Hero Views provide more information about an individual piece of content and/or the nested content within it","Passed","Vu Nguyen","4/4/2025 7:13 AM","Functional"
+"T97401004","Content header Header description","","C33834878","Bypassed with minor bug PMA-19319 Android] Hero View Content Header Description doesn't show """"More"""" link for full description
+
+Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Content Hero View","2","Content Hero Views provide more information about an individual piece of content and/or the nested content within it","Passed","Vu Nguyen","4/4/2025 7:20 AM","Functional"
+"T97401005","Different Header content actions are displayed based on content type","","C33834879","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Content Hero View","2","Content Hero Views provide more information about an individual piece of content and/or the nested content within it","Passed","Vu Nguyen","4/4/2025 7:30 AM","Functional"
+"T97401006","Different Header metadata based on the content type is displayed","","C33834880","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Content Hero View","2","Content Hero Views provide more information about an individual piece of content and/or the nested content within it","Passed","Vu Nguyen","4/4/2025 7:31 AM","Functional"
+"T97401007","Different Content Detail based on content type is displayed","","C33834881","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Content Hero View","2","Content Hero Views provide more information about an individual piece of content and/or the nested content within it","Passed","Vu Nguyen","4/4/2025 7:35 AM","Functional"
+"T97401009","List Item should display 'Histogram' icon for content that is being played","","C33838627","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Content Hero View","2","Content Hero Views provide more information about an individual piece of content and/or the nested content within it","Passed","Vu Nguyen","4/4/2025 7:37 AM","Functional"
+"T97401010","List Item should display 'Explicit' content badging","","C33838628","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Content Hero View","2","Content Hero Views provide more information about an individual piece of content and/or the nested content within it","Passed","Vu Nguyen","4/4/2025 7:40 AM","Functional"
+"T97401028","Display the local music library home in list view","","C33841500","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Local Music Library","3","The local library can be installed on Sonos and can be browsed into using the Passport app.
+
+https://docs.google.com/document/d/1SV6opg6l1HSW0dr_cdvrPujqKGPRDNhvvdujH9ojhDQ/edit
+
+https://www.figma.com/file/0FoziKvR6OwsLqoExNNOCZ/Passport-Browse-Spec?type=design&node-id=4765-347137&mode=design&t=jzdQnEXsWbKo9aFs-0","Passed","Vu Nguyen","4/4/2025 7:41 AM","Unassigned"
+"T97401029","Display the selection in this order with the icon on the left : Artist, Albums, Composers, Genres, Songs, Imported Playlists, Folders","","C33841501","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Local Music Library","3","The local library can be installed on Sonos and can be browsed into using the Passport app.
+
+https://docs.google.com/document/d/1SV6opg6l1HSW0dr_cdvrPujqKGPRDNhvvdujH9ojhDQ/edit
+
+https://www.figma.com/file/0FoziKvR6OwsLqoExNNOCZ/Passport-Browse-Spec?type=design&node-id=4765-347137&mode=design&t=jzdQnEXsWbKo9aFs-0","Passed","Vu Nguyen","4/4/2025 7:41 AM","Unassigned"
+"T97401030","Tapping on 'Artists' opens up container in list view","","C33841502","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Local Music Library","3","The local library can be installed on Sonos and can be browsed into using the Passport app.
+
+https://docs.google.com/document/d/1SV6opg6l1HSW0dr_cdvrPujqKGPRDNhvvdujH9ojhDQ/edit
+
+https://www.figma.com/file/0FoziKvR6OwsLqoExNNOCZ/Passport-Browse-Spec?type=design&node-id=4765-347137&mode=design&t=jzdQnEXsWbKo9aFs-0","Passed","Vu Nguyen","4/4/2025 7:50 AM","Unassigned"
+"T97401031","Tapping on 'Albums' opens up container in list view","","C33841503","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Local Music Library","3","The local library can be installed on Sonos and can be browsed into using the Passport app.
+
+https://docs.google.com/document/d/1SV6opg6l1HSW0dr_cdvrPujqKGPRDNhvvdujH9ojhDQ/edit
+
+https://www.figma.com/file/0FoziKvR6OwsLqoExNNOCZ/Passport-Browse-Spec?type=design&node-id=4765-347137&mode=design&t=jzdQnEXsWbKo9aFs-0","Passed","Vu Nguyen","4/4/2025 7:51 AM","Unassigned"
+"T97401032","Tapping on 'Composers' opens up container in list view","","C33841504","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Local Music Library","3","The local library can be installed on Sonos and can be browsed into using the Passport app.
+
+https://docs.google.com/document/d/1SV6opg6l1HSW0dr_cdvrPujqKGPRDNhvvdujH9ojhDQ/edit
+
+https://www.figma.com/file/0FoziKvR6OwsLqoExNNOCZ/Passport-Browse-Spec?type=design&node-id=4765-347137&mode=design&t=jzdQnEXsWbKo9aFs-0","Passed","Vu Nguyen","4/4/2025 7:55 AM","Unassigned"
+"T97401033","Tapping on 'Songs' opens up 'Playlist' HeroView","","C33841632","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Local Music Library","3","The local library can be installed on Sonos and can be browsed into using the Passport app.
+
+https://docs.google.com/document/d/1SV6opg6l1HSW0dr_cdvrPujqKGPRDNhvvdujH9ojhDQ/edit
+
+https://www.figma.com/file/0FoziKvR6OwsLqoExNNOCZ/Passport-Browse-Spec?type=design&node-id=4765-347137&mode=design&t=jzdQnEXsWbKo9aFs-0","Passed","Vu Nguyen","4/4/2025 7:55 AM","Unassigned"
+"T97401034","Tapping on 'Genres' opens up container in list view","","C33841633","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Local Music Library","3","The local library can be installed on Sonos and can be browsed into using the Passport app.
+
+https://docs.google.com/document/d/1SV6opg6l1HSW0dr_cdvrPujqKGPRDNhvvdujH9ojhDQ/edit
+
+https://www.figma.com/file/0FoziKvR6OwsLqoExNNOCZ/Passport-Browse-Spec?type=design&node-id=4765-347137&mode=design&t=jzdQnEXsWbKo9aFs-0","Passed","Vu Nguyen","4/4/2025 7:56 AM","Unassigned"
+"T97401035","Tapping on 'Imported Playlists' opens up container in list view","","C33841634","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Local Music Library","3","The local library can be installed on Sonos and can be browsed into using the Passport app.
+
+https://docs.google.com/document/d/1SV6opg6l1HSW0dr_cdvrPujqKGPRDNhvvdujH9ojhDQ/edit
+
+https://www.figma.com/file/0FoziKvR6OwsLqoExNNOCZ/Passport-Browse-Spec?type=design&node-id=4765-347137&mode=design&t=jzdQnEXsWbKo9aFs-0","Passed","Vu Nguyen","4/4/2025 7:57 AM","Unassigned"
+"T97401036","Tapping on 'Folders' opens up container in list view","","C33841635","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Local Music Library","3","The local library can be installed on Sonos and can be browsed into using the Passport app.
+
+https://docs.google.com/document/d/1SV6opg6l1HSW0dr_cdvrPujqKGPRDNhvvdujH9ojhDQ/edit
+
+https://www.figma.com/file/0FoziKvR6OwsLqoExNNOCZ/Passport-Browse-Spec?type=design&node-id=4765-347137&mode=design&t=jzdQnEXsWbKo9aFs-0","Passed","Vu Nguyen","4/4/2025 7:57 AM","Unassigned"
+"T97401037","Local Library option will only show up for the HH's with local music (Music Library)","","C33904026","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Local Music Library","3","The local library can be installed on Sonos and can be browsed into using the Passport app.
+
+https://docs.google.com/document/d/1SV6opg6l1HSW0dr_cdvrPujqKGPRDNhvvdujH9ojhDQ/edit
+
+https://www.figma.com/file/0FoziKvR6OwsLqoExNNOCZ/Passport-Browse-Spec?type=design&node-id=4765-347137&mode=design&t=jzdQnEXsWbKo9aFs-0","Passed","Vu Nguyen","4/4/2025 7:58 AM","Functional"
+"T97401038","Display the HH's available input Line-In source in list view","","C33904027","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Line-In","3","","Passed","Vu Nguyen","4/4/2025 7:58 AM","Unassigned"
+"T97401039","Line-In option will only show up for the HH with Line-In capable products","","C33904028","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Line-In","3","","Passed","Vu Nguyen","4/4/2025 8:05 AM","Unassigned"
+"T97401130","Play an Album from Content Hero View","","C34375845","The Unlimited Amazon Music account is blocked. The Album and Playlist aren't shown on the Prime account. Waiting for the Partner...","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Amazon Music","3","","Blocked","Anh Dang","4/4/2025 4:47 AM","Unassigned"
+"T97401131","Play a Playlist from Content Hero View","","C34375846","The Unlimited Amazon Music account is blocked. The Album and Playlist aren't shown on the Prime account. Waiting for the Partner...","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Amazon Music","3","","Blocked","Anh Dang","4/4/2025 4:47 AM","Unassigned"
+"T97401132","Play a Station from Content Hero View","","C34375847","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Amazon Music","3","","Passed","Anh Dang","4/4/2025 4:36 AM","Unassigned"
+"T97401133","Play an Artist from Content Hero View","","C34375848","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Amazon Music","3","","Passed","Anh Dang","4/4/2025 4:36 AM","Unassigned"
+"T97401134","Play content from Recently Played","","C34375849","PMA-19142: Something went wrong message when playing Apple Music stations from Recently Played
+
+Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","PMA-19142","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Amazon Music","3","","Failed","Anh Dang","4/4/2025 4:39 AM","Unassigned"
+"T97401156","Display the Service icon and Service name on the left","","C34380402","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Service Home - Amazon Music","4","Test cases to directly Test Amazon Music (Root Browse Service Home)","Passed","Anh Dang","4/4/2025 4:50 AM","Functional"
+"T97401157","For multiple accounts, CTA dropdown for Account selection","","C34380403","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Service Home - Amazon Music","4","Test cases to directly Test Amazon Music (Root Browse Service Home)","Passed","Anh Dang","4/4/2025 4:50 AM","Functional"
+"T97401158","SMAPI Service Home layout List-View","","C34380404","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Service Home - Amazon Music","4","Test cases to directly Test Amazon Music (Root Browse Service Home)","Passed","Anh Dang","4/4/2025 4:50 AM","Functional"
+"T97401159","Playlists","","C34380405","The Unlimited Amazon Music account is blocked. The Album and Playlist aren't shown on the Prime account. Waiting for the Partner...","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Service Home - Amazon Music","4","Test cases to directly Test Amazon Music (Root Browse Service Home)","Blocked","Anh Dang","4/4/2025 4:50 AM","Functional"
+"T97401160","Stations","","C34380406","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Service Home - Amazon Music","4","Test cases to directly Test Amazon Music (Root Browse Service Home)","Passed","Anh Dang","4/4/2025 4:50 AM","Functional"
+"T97401161","Charts","","C34380407","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Service Home - Amazon Music","4","Test cases to directly Test Amazon Music (Root Browse Service Home)","Passed","Anh Dang","4/4/2025 4:50 AM","Functional"
+"T97401162","Recommended","","C34380408","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Service Home - Amazon Music","4","Test cases to directly Test Amazon Music (Root Browse Service Home)","Passed","Anh Dang","4/4/2025 4:50 AM","Functional"
+"T97401163","New","","C34380409","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Service Home - Amazon Music","4","Test cases to directly Test Amazon Music (Root Browse Service Home)","Passed","Anh Dang","4/4/2025 4:50 AM","Functional"
+"T97401164","My Music","","C34380410","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Service Home - Amazon Music","4","Test cases to directly Test Amazon Music (Root Browse Service Home)","Passed","Anh Dang","4/4/2025 4:50 AM","Functional"
+"T97401118","Play an Album from Content Hero View","","C34375805","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Apple Music","3","","Passed","Anh Dang","4/4/2025 5:08 AM","Unassigned"
+"T97401119","Play a Playlist from Content Hero View","","C34375806","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Apple Music","3","","Passed","Anh Dang","4/4/2025 5:08 AM","Unassigned"
+"T97401120","Play a Station from Content Hero View","","C34375807","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Apple Music","3","","Passed","Anh Dang","4/4/2025 5:08 AM","Unassigned"
+"T97401121","Play an Artist from Content Hero View","","C34375808","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Apple Music","3","","Passed","Anh Dang","4/4/2025 5:08 AM","Unassigned"
+"T97401122","Play an Episode from Content Hero View","","C34375809","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Apple Music","3","","Passed","Anh Dang","4/4/2025 5:08 AM","Unassigned"
+"T97401202","Display the Service icon and Service name on the left","","C34381349","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Service Home - Apple Music","4","Test cases to directly Test Apple Music (Root Browse Service Home)","Passed","Anh Dang","4/4/2025 5:08 AM","Functional"
+"T97401203","For multiple accounts, CTA dropdown for Account selection","","C34381350","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Service Home - Apple Music","4","Test cases to directly Test Apple Music (Root Browse Service Home)","Passed","Anh Dang","4/4/2025 5:08 AM","Functional"
+"T97401204","SMAPI Service Home layout Library List-View","","C34381352","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Service Home - Apple Music","4","Test cases to directly Test Apple Music (Root Browse Service Home)","Passed","Anh Dang","4/4/2025 5:08 AM","Functional"
+"T97401205","Library - Artists","","C34381354","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Service Home - Apple Music","4","Test cases to directly Test Apple Music (Root Browse Service Home)","Passed","Anh Dang","4/4/2025 5:08 AM","Functional"
+"T97401206","Library - Albums","","C34381355","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Service Home - Apple Music","4","Test cases to directly Test Apple Music (Root Browse Service Home)","Passed","Anh Dang","4/4/2025 5:08 AM","Functional"
+"T97401207","Library - Songs","","C34381356","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Service Home - Apple Music","4","Test cases to directly Test Apple Music (Root Browse Service Home)","Passed","Anh Dang","4/4/2025 5:08 AM","Functional"
+"T97401208","Library - Playlists","","C34381357","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Service Home - Apple Music","4","Test cases to directly Test Apple Music (Root Browse Service Home)","Passed","Anh Dang","4/4/2025 5:08 AM","Functional"
+"T97401209","Library - Recently Added","","C34381358","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Service Home - Apple Music","4","Test cases to directly Test Apple Music (Root Browse Service Home)","Passed","Anh Dang","4/4/2025 5:08 AM","Functional"
+"T97401210","Content Swimlanes - Components","","C34381359","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Service Home - Apple Music","4","Test cases to directly Test Apple Music (Root Browse Service Home)","Passed","Anh Dang","4/4/2025 5:08 AM","Functional"
+"T97401211","Content Swimlanes - Content","","C34381360","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Service Home - Apple Music","4","Test cases to directly Test Apple Music (Root Browse Service Home)","Passed","Anh Dang","4/4/2025 5:08 AM","Functional"
+"T97401148","Play an Album from Content Hero View","","C34376436","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Spotify Free","4","","Passed","Anh Dang","4/4/2025 6:17 AM","Unassigned"
+"T97401149","Play a Playlist from Content Hero View","","C34376437","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Spotify Free","4","","Passed","Anh Dang","4/4/2025 6:17 AM","Unassigned"
+"T97401150","Play an Artist from Content Hero View","","C34376438","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Spotify Free","4","","Passed","Anh Dang","4/4/2025 6:17 AM","Unassigned"
+"T97401117","Play an Album from Content Hero View","","C34375799","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Spotify Premium","4","","Passed","Anh Dang","4/4/2025 6:17 AM","Unassigned"
+"T97401305","Play a Track from Search","","C35004333","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Spotify Premium","4","","Passed","Anh Dang","4/4/2025 6:17 AM","Unassigned"
+"T97401135","Play a Playlist from Content Hero View","","C34375850","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Spotify Premium","4","","Passed","Anh Dang","4/4/2025 6:17 AM","Unassigned"
+"T97401137","Play an Artist from Content Hero View","","C34375852","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Spotify Premium","4","","Passed","Anh Dang","4/4/2025 6:17 AM","Unassigned"
+"T97401138","Play content from Recently Played","","C34375853","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Spotify Premium","4","","Passed","Anh Dang","4/4/2025 6:17 AM","Unassigned"
+"T97401139","Play an Album from Content Hero View","","C34375854","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Pandora","3","","Passed","Anh Dang","4/4/2025 6:17 AM","Unassigned"
+"T97401141","Play an Artist from Content Hero View","","C34375856","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Pandora","3","","Passed","Anh Dang","4/4/2025 6:17 AM","Unassigned"
+"T97401140","Play a Playlist from Content Hero View","","C34375855","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Pandora","3","","Passed","Anh Dang","4/4/2025 6:17 AM","Unassigned"
+"T97401136","Play a Station from Content Hero View","","C34375851","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Pandora","3","","Passed","Anh Dang","4/4/2025 6:17 AM","Unassigned"
+"T97401142","Play content from Recently Played","","C34375857","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Pandora","3","","Passed","Anh Dang","4/4/2025 6:17 AM","Unassigned"
+"T97401143","Play a Station from Content Hero View","","C34375862","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Sonos Radio Free","4","","Passed","Anh Dang","4/4/2025 6:17 AM","Unassigned"
+"T97401144","Play content from Recently Played","","C34375863","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Sonos Radio Free","4","","Passed","Anh Dang","4/4/2025 6:17 AM","Unassigned"
+"T97401146","Play a Station from Content Hero View","","C34376431","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Sonos Radio HD","4","","Passed","Anh Dang","4/4/2025 4:28 AM","Unassigned"
+"T97401147","Play content from Recently Played","","C34376432","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Sonos Radio HD","4","","Passed","Anh Dang","4/4/2025 4:28 AM","Unassigned"
+"T97401262","Guest Mode: Switching logged in status and Browsing should display content","","C34388540","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Browse as Guest","2","","Passed","Anh Dang","4/4/2025 6:17 AM","Functional"
+"T97400982","‘Recently Played’ section in Home Feed, which is always present and cannot be removed when personalization settings is enabled","","C33834783","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Swimlane","2","","Passed","Anh Dang","4/4/2025 6:31 AM","Functional"
+"T97400983","‘Recently Played’ section in Home Feed can be removed when personalization settings is disabled","","C33834784","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Swimlane","2","","Passed","Anh Dang","4/4/2025 6:31 AM","Functional"
+"T97400984","If HH has no recently played content, show an empty state message saying content will appear once it’s played.","","C33834785","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","","RC Regression Pass","Android - Phone","R134519","Swimlane","2","","Passed","Anh Dang","4/4/2025 6:31 AM","Functional"
+"T97400985","If HH has recently played content,  'Home Feed' / 'Recently Played' will show the played content.","","C33834786","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","","RC Regression Pass","Android - Phone","R134519","Swimlane","2","","Passed","Anh Dang","4/4/2025 6:31 AM","Functional"
+"T97400986","If HH has recently played content,  disable/re-enable 'Personalization Services' will clear the contents under 'Home Feed' / 'Recently Played'","","C33834787","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Swimlane","2","","Passed","Anh Dang","4/4/2025 6:31 AM","Functional"
+"T97400987","If HH has recently played content, display it in swimlane format.","","C33834788","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","","RC Regression Pass","Android - Phone","R134519","Swimlane","2","","Passed","Anh Dang","4/4/2025 6:31 AM","Functional"
+"T97400988","If HH has recently played content, new content will be added to the beginning of swimlane (the leftmost).","","C33834789","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","","RC Regression Pass","Android - Phone","R134519","Swimlane","2","","Passed","Anh Dang","4/4/2025 6:31 AM","Functional"
+"T97400989","If HH has recently played content, new content will be added to the 'Recently Played' swimlane with correct MSP logo.","","C33834790","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","","RC Regression Pass","Android - Phone","R134519","Swimlane","2","","Passed","Anh Dang","4/4/2025 6:31 AM","Functional"
+"T97401011","If HH has recently played content, new content will be added to the 'Recently Played' swimlane even when there is an app state change  (background to foreground)","","C33838629","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Swimlane","2","","Passed","Anh Dang","4/4/2025 6:31 AM","Functional"
+"T97401012","Ability to select 'view all' - When 'View all' is selected, show a list view showing all Recently Played items.","","C33838630","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","","RC Regression Pass","Android - Phone","R134519","View All","2","","Passed","Anh Dang","4/4/2025 6:31 AM","Functional"
+"T97401013","Ability to select 'view all' - When 'View all' is selected, for Playlist there will be '>' next to the item, click it will navigate to the playlist","","C33838647","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","","RC Regression Pass","Android - Phone","R134519","View All","2","","Passed","Anh Dang","4/4/2025 6:31 AM","Functional"
+"T97401014","Ability to select 'view all' - When 'View all' is selected, for Station there will be '>' next to the item, click it will navigate to the station content","","C33838648","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","","RC Regression Pass","Android - Phone","R134519","View All","2","","Passed","Anh Dang","4/4/2025 6:31 AM","Functional"
+"T97401015","Ability to select 'view all' - When 'View all' is selected, for Album there will be '>' next to the item, click it will navigate to the album content","","C33838649","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","","RC Regression Pass","Android - Phone","R134519","View All","2","","Passed","Anh Dang","4/4/2025 6:31 AM","Functional"
+"T97401016","Ability to select 'view all' - When 'View all' is selected, all played contents up to 30 items appeared","","C33838651","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","View All","2","","Passed","Anh Dang","4/4/2025 6:31 AM","Functional"
+"T97401060","Under Recently Play -> 'View All', clicking Clear will clear the play history.","","C34276391","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","View All","2","","Passed","Anh Dang","4/4/2025 6:31 AM","Functional"
+"T97401061","Under Recently Play -> 'View All', clicking Clear then 'Cancel' will not  clear the play history.","","C34276392","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","View All","2","","Passed","Anh Dang","4/4/2025 6:31 AM","Functional"
+"T97401017","Recently Played shows 'View All' if user has enabled ‘Personalization Services’ setting","","C33838652","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","","RC Regression Pass","Android - Phone","R134519","Enable / Disable","2","","Passed","Anh Dang","4/4/2025 6:31 AM","Functional"
+"T97401310","New HH: Recently Played can be turned on and play history will appear after turned on","","C35055157","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","","RC Regression Pass","Android - Phone","R134519","Enable / Disable","2","","Passed","Anh Dang","4/4/2025 6:31 AM","Functional"
+"T97401018","Fresh install of Passport app, Recently Played does not show 'Turn on' option","","C33838653","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Enable / Disable","2","","Passed","Anh Dang","4/4/2025 6:31 AM","Functional"
+"T97401019","When Data & Privacy / Personalization Services is disabled, Recently Played will show an ability to turn the setting on","","C33838654","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Enable / Disable","2","","Passed","Anh Dang","4/4/2025 6:31 AM","Functional"
+"T97401020","When Data & Privacy / Personalization Services is disabled, Recently Played will not show the history if click 'Don't Allow'","","C33838655","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Enable / Disable","2","","Passed","Anh Dang","4/4/2025 6:31 AM","Functional"
+"T97401022","Disable Data & Privacy / Personalization Services, reinstall the Passport will reset the Hide state","","C33838663","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Enable / Disable","2","","Passed","Anh Dang","4/4/2025 6:54 AM","Functional"
+"T97401021","When users are signed out,  Recently Played should show user that they need to sign in","","C33838660","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Error States","2","","Passed","Anh Dang","4/4/2025 6:31 AM","Functional"
+"T97400975","Search History Populates Played Content","","C33768540","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","PMA-1017","RC Regression Pass","Android - Phone","R134519","Search History","1","","Passed","Anh Dang","4/4/2025 7:04 AM","Functional"
+"T97400978","Display Search Results","","C33813362","PMA-19135: ▲ [Android] Talkback doesn't read the service account on Search All page
+
+Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","PMA-19135","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","PMA-1328","RC Regression Pass","Android - Phone","R134519","Search Results","1","","Failed","Anh Dang","4/4/2025 7:15 AM","Functional"
+"T97401104","Account settings for a signed-in user","","C34375331","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Account","2","https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/558924384/Account","Passed","Anh Dang","4/4/2025 7:35 AM","Unassigned"
+"T97401105","Account settings for a user who is not signed in","","C34375332","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Account","2","https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/558924384/Account","Passed","Anh Dang","4/4/2025 7:35 AM","Unassigned"
+"T97401106","Check the Sign Out functionality","","C34375334","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Account","2","https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/558924384/Account","Passed","Anh Dang","4/4/2025 7:35 AM","Unassigned"
+"T97401107","Check the Sign In functionality","","C34375335","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Account","2","https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/558924384/Account","Passed","Anh Dang","4/4/2025 7:35 AM","Unassigned"
+"T97401108","Visit Help Center","","C34375336","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Account","2","https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/558924384/Account","Passed","Anh Dang","4/4/2025 7:35 AM","Unassigned"
+"T97401085","Allow Pop-up Messages","","C34372635","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","App Preferences","2","https://confluence.sonos.com/display/PDUX/Account#Account-AppPreferences","Passed","Anh Dang","4/4/2025 7:35 AM","Unassigned"
+"T97401094","Installer Setup","","C34372820","Not applicable to current build 80.18.24 - 2025 App 2 RC - release (android)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","App Preferences","2","https://confluence.sonos.com/display/PDUX/Account#Account-AppPreferences","Not Applicable","Vu Nguyen","4/4/2025 8:10 AM","Unassigned"
+"T97401086","Check App Version","","C34372636","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","App Preferences","2","https://confluence.sonos.com/display/PDUX/Account#Account-AppPreferences","Passed","Anh Dang","4/4/2025 7:35 AM","Unassigned"
+"T97401087","Reset app","","C34372637","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","App Preferences","2","https://confluence.sonos.com/display/PDUX/Account#Account-AppPreferences","Passed","Anh Dang","4/4/2025 7:35 AM","Unassigned"
+"T97401088","Visit Help Center","","C34372639","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","App Preferences","2","https://confluence.sonos.com/display/PDUX/Account#Account-AppPreferences","Passed","Anh Dang","4/4/2025 7:35 AM","Unassigned"
+"T97401066","Data & Privacy Settings","","C34354088","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Data & Privacy","2","https://confluence.sonos.com/display/PDUX/Account#Account-Data&Privacy","Passed","Anh Dang","4/4/2025 7:35 AM","Functional"
+"T97401084","Legal","","C34372363","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Legal","2","https://confluence.sonos.com/display/PDUX/Account#Account-Legal","Passed","Anh Dang","4/4/2025 7:35 AM","Unassigned"
+"T97401170","Submit Diagnostics","","C34381168","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","","RC Regression Pass","Android - Phone","R134519","Help Center","1","","Passed","Anh Dang","4/4/2025 7:35 AM","Functional"
+"T97401300","Tour the App","","C34979273","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","3 - Low","","RC Regression Pass","Android - Phone","R134519","Help Center","1","","Passed","Anh Dang","4/4/2025 7:35 AM","Unassigned"
+"T97401301","Search Sonos Support","","C34979274","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","3 - Low","","RC Regression Pass","Android - Phone","R134519","Help Center","1","","Passed","Anh Dang","4/4/2025 7:35 AM","Unassigned"
+"T97401302","Contact Sonos Support","","C34979275","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","3 - Low","","RC Regression Pass","Android - Phone","R134519","Help Center","1","","Passed","Anh Dang","4/4/2025 7:35 AM","Unassigned"
+"T97401303","Sonos Community","","C34979276","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","3 - Low","","RC Regression Pass","Android - Phone","R134519","Help Center","1","","Passed","Anh Dang","4/4/2025 7:35 AM","Unassigned"
+"T97401304","Content Service Outages","","C34979277","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","3 - Low","","RC Regression Pass","Android - Phone","R134519","Help Center","1","","Passed","Anh Dang","4/4/2025 7:35 AM","Unassigned"
+"T97401169","All Products Displayed","","C34381167","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","","RC Regression Pass","Android - Phone","R134519","Product Labels & Images","1","","Passed","Anh Dang","4/4/2025 7:35 AM","Functional"
+"T97401263","Insufficient charge status on System Setting","","C34391119","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","System Settings","2","","Passed","Anh Dang","4/4/2025 7:35 AM","Unassigned"
+"T97401314","Controller Battery Drain","","C35083303","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","","RC Regression Pass","Android - Phone","R134519","System Settings","2","","Passed","Anh Dang","4/4/2025 9:45 AM","Smoke Test"
+"T97401171","Source Name Settings","","C34381176","Passed with minor bug PMA-18285 - [Android] The """"Line-In Source"""" text displays by default after deleting Source Name
+
+Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Room Settings","1","","Passed","Anh Dang","4/4/2025 7:48 AM","Functional"
+"T97401172","Source Level Settings","","C34381178","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Room Settings","1","","Passed","Anh Dang","4/4/2025 8:31 AM","Functional"
+"T97401225","Volume Limit Settings","","C34382584","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Room Settings","1","","Passed","Vu Nguyen","4/4/2025 8:23 AM","Functional"
+"T97401257","All products are displayed in the room settings","","C34388457","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Main Room Settings Screen","2","","Passed","Anh Dang","4/4/2025 7:35 AM","Unassigned"
+"T97401258","Add and remove a Sub","","C34388458","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Main Room Settings Screen","2","","Passed","Anh Dang","4/4/2025 7:48 AM","Unassigned"
+"T97401259","Add and remove second Sub","","C34388459","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Main Room Settings Screen","2","","Passed","Anh Dang","4/4/2025 8:44 AM","Unassigned"
+"T97401260","Add and remove Surrounds","","C34388460","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Main Room Settings Screen","2","","Passed","Anh Dang","4/4/2025 8:44 AM","Unassigned"
+"T97401261","Add and remove Stereo Pair","","C34388461","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Main Room Settings Screen","2","","Passed","Anh Dang","4/4/2025 8:44 AM","Unassigned"
+"T97401256","Visit Help Center","","C34388396","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Main Room Settings Screen","2","","Passed","Anh Dang","4/4/2025 7:35 AM","Unassigned"
+"T97401247","Room Name settings","","C34385547","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Room Name","2","https://confluence.sonos.com/display/PDUX/Room+Settings#RoomSettings-RoomName","Passed","Anh Dang","4/4/2025 8:44 AM","Unassigned"
+"T97401248","Edit room name","","C34385548","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Room Name","2","https://confluence.sonos.com/display/PDUX/Room+Settings#RoomSettings-RoomName","Passed","Anh Dang","4/4/2025 8:44 AM","Unassigned"
+"T97401249","Create a duplicate room name","","C34385549","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Room Name","2","https://confluence.sonos.com/display/PDUX/Room+Settings#RoomSettings-RoomName","Passed","Anh Dang","4/4/2025 8:44 AM","Unassigned"
+"T97401250","Change to a new name via the preset names list","","C34385550","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Room Name","2","https://confluence.sonos.com/display/PDUX/Room+Settings#RoomSettings-RoomName","Passed","Anh Dang","4/4/2025 8:44 AM","Unassigned"
+"T97401251","Product Settings","","C34388103","- PMA-18661: [Android] [iOS] The product name is displayed instead of the room name on the non-primary speaker when the primary disconnected
+- PMA-21181: [Android] [iOS] [Stereo Pair] The room name of the non-primary player is incorrect when it is unplugged
+
+Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","PMA-18661, PMA-21181","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Product Settings","2","If the user taps on a product in the room settings they will go to the statuses and settings for that product in the room.
+
+https://confluence.sonos.com/display/PDUX/Room+Settings#RoomSettings-ProductSettings
+https://confluence.sonos.com/display/PDUX/Product+Settings","Failed","Anh Dang","4/4/2025 9:49 AM","Unassigned"
+"T97401252","Product status settings","","C34388104","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Product Settings","2","If the user taps on a product in the room settings they will go to the statuses and settings for that product in the room.
+
+https://confluence.sonos.com/display/PDUX/Room+Settings#RoomSettings-ProductSettings
+https://confluence.sonos.com/display/PDUX/Product+Settings","Passed","Anh Dang","4/4/2025 9:52 AM","Unassigned"
+"T97401218","Tuning an uncalibrated standalone player with Manual Trueplay","Anh Dang","C34382292","Not applicable on Android","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Trueplay","3","https://confluence.sonos.com/display/PDUX/Room+Settings#RoomSettings-Trueplay","Not Applicable","Anh Dang","4/4/2025 6:03 AM","Unassigned"
+"T97401219","Tuning an uncalibrated stereo-pair player with Manual Trueplay","Anh Dang","C34382293","Not applicable on Android","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Trueplay","3","https://confluence.sonos.com/display/PDUX/Room+Settings#RoomSettings-Trueplay","Not Applicable","Anh Dang","4/4/2025 6:03 AM","Unassigned"
+"T97401220","Tuning an uncalibrated Home Theater set with Manual Trueplay","Anh Dang","C34382294","Not applicable on Android","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Trueplay","3","https://confluence.sonos.com/display/PDUX/Room+Settings#RoomSettings-Trueplay","Not Applicable","Anh Dang","4/4/2025 6:03 AM","Unassigned"
+"T97401221","Tune the player with Auto Trueplay if they are capable","","C34382295","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Trueplay","3","https://confluence.sonos.com/display/PDUX/Room+Settings#RoomSettings-Trueplay","Passed","Anh Dang","4/4/2025 9:52 AM","Unassigned"
+"T97401222","Trueplay Tuning switch and Retune option displays for calibrated set","","C34382296","PMA-18511: Trueplay adjustment events aren't reflected across to Android controller
+
+Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","PMA-18511","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Trueplay","3","https://confluence.sonos.com/display/PDUX/Room+Settings#RoomSettings-Trueplay","Failed","Anh Dang","4/4/2025 6:04 AM","Unassigned"
+"T97401223","Trueplay Tuning switch only displays for calibrated set on ACR controller","","C34382297","PMA-18511: Trueplay adjustment events aren't reflected across to Android controller
+
+Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","PMA-18511","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Trueplay","3","https://confluence.sonos.com/display/PDUX/Room+Settings#RoomSettings-Trueplay","Failed","Anh Dang","4/4/2025 6:04 AM","Unassigned"
+"T97401224","Trueplay adjustment events are reflected across controller","","C34382298","PMA-18511: Trueplay adjustment events aren't reflected across to Android controller
+
+Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","PMA-18511","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Trueplay","3","https://confluence.sonos.com/display/PDUX/Room+Settings#RoomSettings-Trueplay","Failed","Anh Dang","4/4/2025 6:04 AM","Unassigned"
+"T97401067","EQ Settings","","C34356227","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","EQ","3","https://confluence.sonos.com/display/PDUX/Room+Settings#RoomSettings-EQ","Passed","Anh Dang","4/4/2025 7:48 AM","Functional"
+"T97401212","Surround Audio Settings","","C34381721","PMA-17210: [Android] Default value of surround distance is """"Less than 2 ft (0.6m)"""" instead of """"2 to 10 ft (0.6 to 3m)""""
+
+Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","PMA-17210","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Surround Audio","3","https://confluence.sonos.com/display/PDUX/Room+Settings#RoomSettings-SurroundAudio","Failed","Anh Dang","4/4/2025 8:45 AM","Unassigned"
+"T97401213","Check Audio Settings for some type of player","","C34381759","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","3 - Low","","RC Regression Pass","Android - Phone","R134519","Sub Audio","3","https://confluence.sonos.com/display/PDUX/Room+Settings#RoomSettings-SubAudio","Passed","Anh Dang","4/4/2025 9:34 AM","Unassigned"
+"T97401214","Sub Audio Settings for bonded Standalone player with SUB","","C34381760","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","3 - Low","","RC Regression Pass","Android - Phone","R134519","Sub Audio","3","https://confluence.sonos.com/display/PDUX/Room+Settings#RoomSettings-SubAudio","Passed","Anh Dang","4/4/2025 7:48 AM","Unassigned"
+"T97401215","Sub Audio Settings for bonded Stereo-paired Set with SUB","","C34381761","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","3 - Low","","RC Regression Pass","Android - Phone","R134519","Sub Audio","3","https://confluence.sonos.com/display/PDUX/Room+Settings#RoomSettings-SubAudio","Passed","Anh Dang","4/4/2025 9:24 AM","Unassigned"
+"T97401216","Sub Audio Settings for bonded Home Theater Set with SUB","","C34381762","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","3 - Low","","RC Regression Pass","Android - Phone","R134519","Sub Audio","3","https://confluence.sonos.com/display/PDUX/Room+Settings#RoomSettings-SubAudio","Passed","Anh Dang","4/4/2025 9:24 AM","Unassigned"
+"T97401217","Sub Audio Settings for bonded Home Theater Set with two SUBs","","C34381763","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","3 - Low","","RC Regression Pass","Android - Phone","R134519","Sub Audio","3","https://confluence.sonos.com/display/PDUX/Room+Settings#RoomSettings-SubAudio","Passed","Anh Dang","4/4/2025 8:44 AM","Unassigned"
+"T97401235","Check Height Audio Settings for the applicable players","","C34384138","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Height Audio","3","https://confluence.sonos.com/display/PDUX/Room+Settings#RoomSettings-HeightAudio","Passed","Anh Dang","4/4/2025 8:56 AM","Unassigned"
+"T97401236","Height Audio Settings","","C34384139","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Height Audio","3","https://confluence.sonos.com/display/PDUX/Room+Settings#RoomSettings-HeightAudio","Passed","Anh Dang","4/4/2025 8:56 AM","Unassigned"
+"T97401237","Players without applicable settings do not have height audio options","","C34384140","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Height Audio","3","https://confluence.sonos.com/display/PDUX/Room+Settings#RoomSettings-HeightAudio","Passed","Anh Dang","4/4/2025 8:56 AM","Unassigned"
+"T97401238","Volume Limit Settings standalone player","","C34384141","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Volume Limit","3","","Passed","Anh Dang","4/4/2025 9:30 AM","Unassigned"
+"T97401239","Volume Limit Settings for Home Theater","","C34384142","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Volume Limit","3","","Passed","Anh Dang","4/4/2025 8:44 AM","Unassigned"
+"T97401240","Volume Limit Settings for stereo-paired","","C34384143","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Volume Limit","3","","Passed","Anh Dang","4/4/2025 9:24 AM","Unassigned"
+"T97401241","Check Volume Limit Settings for Line-in","","C34384145","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Volume Limit","3","","Passed","Anh Dang","4/4/2025 9:24 AM","Unassigned"
+"T97401242","Stereo/Mono settings","","C34384231","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Stereo/Mono","3","","Passed","Anh Dang","4/4/2025 9:30 AM","Unassigned"
+"T97401226","Line-in Settings","","C34383299","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Line-In","2","https://confluence.sonos.com/display/PDUX/Room+Settings#RoomSettings-Line-In","Passed","Anh Dang","4/4/2025 8:31 AM","Unassigned"
+"T97401227","Line-in Source Name settings","","C34383300","Passed with minor bug PMA-18285 - [Android] The """"Line-In Source"""" text displays by default after deleting Source Name
+
+Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Line-In","2","https://confluence.sonos.com/display/PDUX/Room+Settings#RoomSettings-Line-In","Passed","Anh Dang","4/4/2025 7:48 AM","Unassigned"
+"T97401228","Line-in Source Level settings","","C34383301","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Line-In","2","https://confluence.sonos.com/display/PDUX/Room+Settings#RoomSettings-Line-In","Passed","Anh Dang","4/4/2025 8:31 AM","Unassigned"
+"T97401229","Line-in Audio Delay settings","","C34383302","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Line-In","2","https://confluence.sonos.com/display/PDUX/Room+Settings#RoomSettings-Line-In","Passed","Anh Dang","4/4/2025 8:31 AM","Unassigned"
+"T97401230","Line-in Autoplay Location settings","","C34383303","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Line-In","2","https://confluence.sonos.com/display/PDUX/Room+Settings#RoomSettings-Line-In","Passed","Vu Nguyen","4/4/2025 8:36 AM","Unassigned"
+"T97401231","Line-in Autoplay Volume settings","","C34383304","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Line-In","2","https://confluence.sonos.com/display/PDUX/Room+Settings#RoomSettings-Line-In","Passed","Vu Nguyen","4/4/2025 8:38 AM","Unassigned"
+"T97401232","Disabled Line-in settings when no line-in cable is connected to product","","C34383305","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Line-In","2","https://confluence.sonos.com/display/PDUX/Room+Settings#RoomSettings-Line-In","Passed","Vu Nguyen","4/4/2025 8:38 AM","Unassigned"
+"T97401233","No line-in settings when products are bonded as surrounds for a home theater set","","C34383306","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Line-In","2","https://confluence.sonos.com/display/PDUX/Room+Settings#RoomSettings-Line-In","Passed","Vu Nguyen","4/4/2025 8:38 AM","Unassigned"
+"T97401234","Line-in Settings for stereo-paired set","","C34383307","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Line-In","2","https://confluence.sonos.com/display/PDUX/Room+Settings#RoomSettings-Line-In","Passed","Vu Nguyen","4/4/2025 8:47 AM","Unassigned"
+"T97401243","Line-Out settings","","C34385532","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Line-Out","2","","Passed","Anh Dang","4/4/2025 8:32 AM","Unassigned"
+"T97401244","Setting a fixed line-out level output","","C34385533","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Line-Out","2","","Passed","Anh Dang","4/4/2025 8:32 AM","Unassigned"
+"T97401245","Setting a Pass-Through line-out level output","","C34385534","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Line-Out","2","","Passed","Anh Dang","4/4/2025 8:32 AM","Unassigned"
+"T97401246","Players without applicable settings do not have Line-Out settings","","C34385535","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Line-Out","2","","Passed","Anh Dang","4/4/2025 8:32 AM","Unassigned"
+"T97401068","Bluetooth Section - """"Always Auto-Connect"""" setting works properly","","C34363038","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Bluetooth","2","","Passed","Anh Dang","4/4/2025 6:55 AM","Functional"
+"T97401069","Bluetooth Section - """"Idle Auto-Disconnect"""" setting works properly","","C34363103","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Bluetooth","2","","Passed","Anh Dang","4/4/2025 6:55 AM","Functional"
+"T97401253","Battery Saver in Battery settings","","C34388392","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Battery","2","","Passed","Anh Dang","4/4/2025 6:55 AM","Unassigned"
+"T97401254","WiFi Power Save in Battery settings","","C34388393","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Battery","2","","Passed","Anh Dang","4/4/2025 6:55 AM","Unassigned"
+"T97401255","Hardware settings","","C34388394","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Hardware","2","","Passed","Anh Dang","4/4/2025 9:35 AM","Unassigned"
+"T97401072","Display of AirPlay Compatible Products with Names and Images","","C34369103","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Airplay","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Airplay","Passed","Vu Nguyen","4/4/2025 10:12 AM","Unassigned"
+"T97401073","Display of Empty State for No AirPlay Compatible Products","","C34369104","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Airplay","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Airplay","Passed","Vu Nguyen","4/4/2025 10:30 AM","Unassigned"
+"T97401074","Grouping of Non-AirPlay Products Toggle Function","","C34369105","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Airplay","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Airplay","Passed","Vu Nguyen","4/4/2025 10:30 AM","Unassigned"
+"T97401075","Learn More functionality","","C34369106","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Airplay","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Airplay","Passed","Vu Nguyen","4/4/2025 10:17 AM","Unassigned"
+"T97401077","Filter Explicit Content toggle functionality","","C34370141","Samsung Galaxy A73 (Android 13)
+CR: CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+- 84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Parental Controls","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Parental-Controls","Passed","Ha Bui","4/4/2025 9:56 AM","Unassigned"
+"T97401078","The Explicit content filter and Content Service list display correctly when compatible services change for parental controls","","C34370142","Samsung Galaxy A73 (Android 13) 
+CR: CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+- 84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Parental Controls","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Parental-Controls","Passed","Ha Bui","4/4/2025 10:04 AM","Unassigned"
+"T97401079","Explicit Content in Browse and Search","","C34370143","PMA-18406: ▲▲ [Both] Explicit songs are not disabled and can be played from Sonos Favorites
+
+Samsung Galaxy A73 (Android 13)
+CR: CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+","PMA-18406","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Parental Controls","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Parental-Controls","Failed","Ha Bui","4/4/2025 10:03 AM","Unassigned"
+"T97401076","Learn More functionality","","C34370140","Samsung Galaxy A73 (Android 13)
+CR: CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+- 84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Parental Controls","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Parental-Controls","Passed","Ha Bui","4/4/2025 10:07 AM","Unassigned"
+"T97401081","Update Automatically Toggle Functionality and Custom Update Schedule Selection","","C34371754","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","System Updates","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#System-Updates","Passed","Trang Nguyen.","4/4/2025 3:08 AM","Unassigned"
+"T97401082","Verify Check for Updates System Feature Functionality","","C34371755","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","System Updates","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#System-Updates","Passed","Trang Nguyen.","4/4/2025 3:08 AM","Unassigned"
+"T97401083","Learn More button functionality","","C34371756","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","System Updates","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#System-Updates","Passed","Trang Nguyen.","4/4/2025 3:08 AM","Unassigned"
+"T97401089","Verify Group Screen Displays Groups and Create Group Option","","C34372640","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Group","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Groups","Passed","Trang Nguyen.","4/4/2025 3:08 AM","Unassigned"
+"T97401090","Ability to Edit Group Name and Select Rooms","","C34372641","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Group","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Groups","Passed","Trang Nguyen.","4/4/2025 3:08 AM","Unassigned"
+"T97401091","Save Group button functionality","","C34372642","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Group","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Groups","Passed","Trang Nguyen.","4/4/2025 3:08 AM","Unassigned"
+"T97401092","Delete a Group functionality","","C34372643","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Group","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Groups","Passed","Trang Nguyen.","4/4/2025 3:08 AM","Unassigned"
+"T97401093","Create new Group","","C34372644","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Group","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Groups","Passed","Trang Nguyen.","4/4/2025 3:08 AM","Unassigned"
+"T97401099","Verify the Alarm Display for Various Scenarios","","C34375303","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Alarm","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Alarms","Passed","Trang Nguyen.","4/4/2025 3:27 AM","Unassigned"
+"T97401100","Verify can edit the alarm","","C34375304","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Alarm","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Alarms","Passed","Trang Nguyen.","4/4/2025 3:27 AM","Unassigned"
+"T97401101","Delete an Alarm fuctionally","","C34375305","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Alarm","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Alarms","Passed","Trang Nguyen.","4/4/2025 3:24 AM","Unassigned"
+"T97401102","The function of the Back button on the Edit and Create Alarm screens","","C34375306","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Alarm","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Alarms","Passed","Trang Nguyen.","4/4/2025 3:36 AM","Unassigned"
+"T97401103","Music Picker functionality","","C34375307","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Alarm","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Alarms","Passed","Trang Nguyen.","4/4/2025 3:36 AM","Unassigned"
+"T97401111","Alarms Shuffle Music option only available on appropriate music selections","","C34375740","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Alarm","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Alarms","Passed","Trang Nguyen.","4/4/2025 3:23 AM","Unassigned"
+"T97401112","Repeat Menu functionality","","C34375741","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Alarm","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Alarms","Passed","Trang Nguyen.","4/4/2025 3:26 AM","Unassigned"
+"T97401113","Alarm volume ramp-up functionality","","C34375742","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Alarm","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Alarms","Passed","Trang Nguyen.","4/4/2025 3:10 AM","Unassigned"
+"T97401114","Alarm Duration functionality","","C34375744","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Alarm","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Alarms","Passed","Vu Nguyen","4/4/2025 8:50 AM","Unassigned"
+"T97401115","Snooze duration functionality","","C34375745","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","PMA-17839, PMA-17840","RC Regression Pass","Android - Phone","R134519","Alarm","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Alarms","Passed","Vu Nguyen","4/4/2025 8:58 AM","Unassigned"
+"T97401123","Create a new alarm with Group Room","","C34375812","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Alarm","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Alarms","Passed","Trang Nguyen.","4/4/2025 3:13 AM","Unassigned"
+"T97401124","Create a new alarm - Sonos Favorites","","C34375813","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Alarm","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Alarms","Passed","Trang Nguyen.","4/4/2025 3:20 AM","Unassigned"
+"T97401125","Create a new alarm - Sonos Chime","","C34375814","PMA-20170: [Android] Remove Hard-coded Transport Controls for Chime
+
+Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Alarm","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Alarms","Passed","Trang Nguyen.","4/4/2025 3:10 AM","Unassigned"
+"T97401126","Stop Alarm","","C34375815","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Alarm","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Alarms","Passed","Trang Nguyen.","4/4/2025 3:10 AM","Unassigned"
+"T97401127","Users can set up alarms using songs from any account associated with a service","","C34375816","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Alarm","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Alarms","Passed","Anh Dang","4/4/2025 9:56 AM","Unassigned"
+"T97401128","Alarms playback after music service has been removed","","C34375817","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Alarm","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Alarms","Passed","Vu Nguyen","4/4/2025 9:25 AM","Unassigned"
+"T97401129","Alarms synced between controllers","","C34375818","PMA-19322: [Android] The Room and Music of Alarms do not sync immediately between controllers
+
+Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+
+","PMA-19322","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Alarm","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Alarms","Failed","Trang Nguyen.","4/4/2025 4:27 AM","Unassigned"
+"T97401145","Alarm Toggle Functionality","","C34375875","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Alarm","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Alarms","Passed","Trang Nguyen.","4/4/2025 3:25 AM","Unassigned"
+"T97405670","Snooze alarm shows when alarm is triggered","","C35192476","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Snooze Alarm","3","","Passed","Anh Dang","4/4/2025 10:07 AM","Unassigned"
+"T97405671","'Snooze' function on snooze alarm will pause and resume notification","","C35192477","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Snooze Alarm","3","","Passed","Anh Dang","4/4/2025 10:07 AM","Unassigned"
+"T97405672","'Stop' function on snooze alarm will pause notification","","C35192478","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Snooze Alarm","3","","Passed","Anh Dang","4/4/2025 10:07 AM","Unassigned"
+"T97405673","'Keep listening' function on snooze alarm will continues alarm","","C35192479","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Snooze Alarm","3","","Passed","Anh Dang","4/4/2025 10:07 AM","Unassigned"
+"T97405674","Snooze alarm doesn't show when not signed in","","C35192480","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Snooze Alarm","3","","Passed","Anh Dang","4/4/2025 10:07 AM","Unassigned"
+"T97405675","Snooze alarm shows on both platform when alarm triggered","","C35192481","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Snooze Alarm","3","","Passed","Anh Dang","4/4/2025 10:07 AM","Unassigned"
+"T97405676","'Stop' function on snooze alarm will pause notification on both platforms","","C35192482","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Snooze Alarm","3","","Passed","Anh Dang","4/4/2025 10:07 AM","Unassigned"
+"T97405677","'Snooze' function on snooze alarm will pause and resume notification on both platforms","","C35192483","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Snooze Alarm","3","","Passed","Anh Dang","4/4/2025 10:07 AM","Unassigned"
+"T97405678","'Keep listening' function on snooze alarm will continues alarm on both platforms","","C35192484","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Snooze Alarm","3","","Passed","Anh Dang","4/4/2025 10:07 AM","Unassigned"
+"T97405679","Snooze alarm appear over the following screen","","C35192485","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Snooze Alarm","3","","Passed","Anh Dang","4/4/2025 10:19 AM","Unassigned"
+"T97405680","Message on snooze alarm shows correctly with design","","C35192486","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Snooze Alarm","3","","Passed","Anh Dang","4/4/2025 10:07 AM","Unassigned"
+"T97405681","Snooze alarm still show after killing app and re-opening","","C35192487","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Snooze Alarm","3","","Passed","Anh Dang","4/4/2025 10:07 AM","Unassigned"
+"T97401095","Time Zone selection functionality","","C34372821","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Date & Time","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Date-&-Time","Passed","Trang Nguyen.","4/4/2025 4:04 AM","Unassigned"
+"T97401096","Daylight Savings functionality","","C34372822","PMA-19646: [Android] [Date & Time] """"Adjust for Daylight Savings"""" has no function
+
+Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+
+","PMA-19646","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Date & Time","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Date-&-Time","Failed","Trang Nguyen.","4/4/2025 4:04 AM","Unassigned"
+"T97401151","Verify Music Library Setup Screen when it has no Shared Folder","","C34376902","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Music Library","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Music-Library","Passed","Anh Dang","4/4/2025 6:59 AM","Unassigned"
+"T97401152","Verify Music Library Setup Screen when it have Shared Folder","Anh Dang","C34376903","Music Service setting on DCR is disabled on the build under test","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Music Library","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Music-Library","Not Applicable","Anh Dang","4/4/2025 6:59 AM","Unassigned"
+"T97401153","Remove and Re-Add a Shared Folder Path functionality","","C34376904","Samsung Galaxy S23 (Android 14)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players:
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","2 - Medium","","RC Regression Pass","Android - Phone","R134519","Music Library","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Music-Library","Passed","Anh Dang","4/4/2025 6:59 AM","Unassigned"
+"T97401173","Verify the Voice Assistants screen when no assistants are present","","C34381202","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Voice Assistants","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Voice-Assistants","Passed","Trang Nguyen.","4/4/2025 2:41 AM","Unassigned"
+"T97401174","Verify the Voice Assistants screen when having assistants","","C34381203","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Voice Assistants","2","Spec: https://sonosinc.atlassian.net/wiki/spaces/PDUX/pages/125908555/System+Settings#Voice-Assistants","Passed","Trang Nguyen.","4/4/2025 2:41 AM","Unassigned"
+"T97401175","Setup SVC on voice enabled device","","C34381231","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Sonos Voice Control","3","","Passed","Trang Nguyen.","4/4/2025 2:43 AM","Unassigned"
+"T97401176","Setup SVC on voice enabled device via """"Add to another product"""" button on SVC screen","","C34381232","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Sonos Voice Control","3","","Passed","Trang Nguyen.","4/4/2025 2:43 AM","Unassigned"
+"T97401177","Add to Another Product button does not exist when no voice capable sets exist in the household","","C34381233","PMA-17322: [Android] [Voice Assistants] Add to Another Product button still shows and enable when no voice capable sets exist in the household
+
+Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+
+","PMA-17322","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Sonos Voice Control","3","","Failed","Trang Nguyen.","4/4/2025 2:45 AM","Unassigned"
+"T97401178","Setup SVC Default Service settings using compatible service","","C34381234","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Sonos Voice Control","3","","Passed","Trang Nguyen.","4/4/2025 2:46 AM","Unassigned"
+"T97401179","Setup SVC Default Service settings - uncompatible service","","C34381235","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Sonos Voice Control","3","","Passed","Trang Nguyen.","4/4/2025 2:46 AM","Unassigned"
+"T97401180","Remove SVC from a room","","C34381236","PMA-18686: [iOS][Android] [Voice Assistants] User is still on the Sonos Voice Control/Google Assistant/Amazon Alexa page after removing the last product from a room
+
+Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+
+","PMA-18686","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Sonos Voice Control","3","","Failed","Trang Nguyen.","4/4/2025 2:51 AM","Unassigned"
+"T97401181","Data Collection Toggle","","C34381237","Not applicable on the release build","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Sonos Voice Control","3","","Not Applicable","Trang Nguyen.","4/4/2025 2:47 AM","Unassigned"
+"T97401182","Voice Language on SVC","","C34381238","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Sonos Voice Control","3","","Passed","Trang Nguyen.","4/4/2025 2:48 AM","Unassigned"
+"T97401183","Verify display of Multiple Products in the Set with Sonos Voice Control availability","","C34381239","PMA-16136: [Android] [Voice Assistant] The player name shows instead of room name
+
+Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+
+","PMA-16136","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Sonos Voice Control","3","","Failed","Trang Nguyen.","4/4/2025 2:51 AM","Unassigned"
+"T97401184","Setup Google Assistant on voice enabled device","","C34381240","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Google Assistant","3","","Passed","Trang Nguyen.","4/4/2025 2:28 AM","Unassigned"
+"T97401185","Setup Google Assistant on voice enabled device via """"Add to another product"""" button on Google Assistant screen","","C34381241","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Google Assistant","3","","Passed","Trang Nguyen.","4/4/2025 2:28 AM","Unassigned"
+"T97401186","Add to Another Product button does not exist when no voice capable sets exist in the household","","C34381242","PMA-17322: [Android] [Voice Assistants] Add to Another Product button still shows and enable when no voice capable sets exist in the household
+
+Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+
+","PMA-17322","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Google Assistant","3","","Failed","Trang Nguyen.","4/4/2025 2:29 AM","Unassigned"
+"T97401187","Setup Google Assistant Music Service settings","","C34381243","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Google Assistant","3","","Passed","Trang Nguyen.","4/4/2025 2:32 AM","Unassigned"
+"T97401188","Verify Google Assistant Settings external link on Google Assistant Settings page","","C34381244","PMA-17368: [Android] [Voice Assistants] Missing """"Google Assistant Settings"""" external link
+
+Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+
+","PMA-17368","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Google Assistant","3","","Failed","Trang Nguyen.","4/4/2025 2:32 AM","Unassigned"
+"T97401189","Remove Google Assistant from a room","","C34381245","PMA-18686: [iOS][Android] [Voice Assistants] User is still on the Sonos Voice Control/Google Assistant/Amazon Alexa page after removing the last product from a room
+
+Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+
+","PMA-18686","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Google Assistant","3","","Failed","Trang Nguyen.","4/4/2025 2:33 AM","Unassigned"
+"T97401190","Verify Wake Word Chime toggle functionality on Google Assistant Settings screen","","C34381246","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Google Assistant","3","","Passed","Trang Nguyen.","4/4/2025 2:33 AM","Unassigned"
+"T97401191","Verify display of Multiple Products in the Set with Google Assistant availability","","C34381247","PMA-16136: [Android] [Voice Assistant] The player name shows instead of room name
+
+PMA-18366: [Google Assistant] Missing the Compatible Products on Home Theater set and Stereo pair
+
+Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+
+","PMA-16136, PMA-18366","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Google Assistant","3","","Failed","Trang Nguyen.","4/4/2025 2:33 AM","Unassigned"
+"T97401192","Setup Amazon Alexa on voice enabled device","","C34381248","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Alexa","3","","Passed","Trang Nguyen.","4/4/2025 2:04 AM","Unassigned"
+"T97401193","Setup Amazon Alexa on voice enabled device via """"Add to another product"""" button on Amazon Alexa screen","","C34381249","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Alexa","3","","Passed","Trang Nguyen.","4/4/2025 2:04 AM","Unassigned"
+"T97401194","Add to Another Product button does not exist when no voice capable sets exist in the household","","C34381250","PMA-17322: [Android] [Voice Assistants] Add to Another Product button still shows and enable when no voice capable sets exist in the household
+
+Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+
+","PMA-17322","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Alexa","3","","Failed","Trang Nguyen.","4/4/2025 2:14 AM","Unassigned"
+"T97401195","Setup Alexa Music Service settings","","C34381251","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Alexa","3","","Passed","Trang Nguyen.","4/4/2025 2:04 AM","Unassigned"
+"T97401196","Setup Alexa Music Account settings","","C34381252","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Alexa","3","","Passed","Trang Nguyen.","4/4/2025 2:04 AM","Unassigned"
+"T97401197","Verify the correct display of the Alexa account information on the Room Setting page","","C34381253","PMA-16136: [Android] [Voice Assistant] The player name shows instead of room name
+
+Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+
+","PMA-16136","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Alexa","3","","Failed","Trang Nguyen.","4/4/2025 2:13 AM","Unassigned"
+"T97401198","Remove Alexa from a room","","C34381254","PMA-18686: [iOS][Android] [Voice Assistants] User is still on the Sonos Voice Control/Google Assistant/Amazon Alexa page after removing the last product from a room
+
+Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+
+","PMA-18686","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Alexa","3","","Failed","Trang Nguyen.","4/4/2025 2:11 AM","Unassigned"
+"T97401199","Verify Wake Word Chime toggle functionality on Amazon Alexa Settings screen","","C34381255","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Alexa","3","","Passed","Trang Nguyen.","4/4/2025 2:12 AM","Unassigned"
+"T97401200","Voice Language on Amazon Alexa","","C34381256","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Alexa","3","","Passed","Trang Nguyen.","4/4/2025 2:12 AM","Unassigned"
+"T97401201","Verify display of Multiple Products in the Set with Alexa availability","","C34381257","PMA-16136: [Android] [Voice Assistant] The player name shows instead of room name
+
+Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+
+","PMA-16136","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","Alexa","3","","Failed","Trang Nguyen.","4/4/2025 2:12 AM","Unassigned"
+"T97401168","NavBar Navigation","","C34381156","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","","RC Regression Pass","Android - Phone","R134519","Navigation","0","","Passed","Trang Nguyen.","4/4/2025 2:56 AM","Functional"
+"T97401264","Welcome Flow is shown after freshly installing the app","","C34528283","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","","RC Regression Pass","Android - Phone","R134519","Welcome Flow","0","","Passed","Trang Nguyen.","4/4/2025 2:56 AM","Functional"
+"T97401265","User can join existing system through the Welcome Flow","","C34528285","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","","RC Regression Pass","Android - Phone","R134519","Welcome Flow","0","","Passed","Trang Nguyen.","4/4/2025 2:53 AM","Unassigned"
+"T97401266","User can create a new system with an existing account through the Welcome Flow","","C34528287","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","","RC Regression Pass","Android - Phone","R134519","Welcome Flow","0","","Passed","Trang Nguyen.","4/4/2025 2:54 AM","Unassigned"
+"T97401268","Welcome Flow is not shown if updating from a previously setup Passport app","","C34528290","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","","RC Regression Pass","Android - Phone","R134519","Welcome Flow","0","","Passed","Trang Nguyen.","4/4/2025 2:55 AM","Unassigned"
+"T97401269","Welcome Flow is shown again on resetting the app","","C34528291","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","","RC Regression Pass","Android - Phone","R134519","Welcome Flow","0","","Passed","Trang Nguyen.","4/4/2025 2:55 AM","Unassigned"
+"T97401275","Player Version less than 2025 R1.1  - Full Quarantined System","","C34900467","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","","RC Regression Pass","Android - Phone","R134519","Player Versions","0","Test cases around different player versions of systems Passport tries to connect to.","Passed","Vu Nguyen","4/4/2025 9:24 AM","Smoke Test"
+"T97401276","Player Version less than 2025 R1.1  - Partial Quarantined System","","C34900468","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","","RC Regression Pass","Android - Phone","R134519","Player Versions","0","Test cases around different player versions of systems Passport tries to connect to.","Passed","Vu Nguyen","4/4/2025 9:58 AM","Smoke Test"
+"T97401277","Player Version is 2025 R1.1 - Full Unsupported System","","C34900469","The current GA build is 84.x and is compatible with build under test (in this case: 89.x). So when joining an existing system, the blocking screen is not shown. We marked N/A for this build","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","","RC Regression Pass","Android - Phone","R134519","Player Versions","0","Test cases around different player versions of systems Passport tries to connect to.","Not Applicable","Vu Nguyen","4/4/2025 8:59 AM","Smoke Test"
+"T97401278","Player Version is Current Prod","","C34900470","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","","RC Regression Pass","Android - Phone","R134519","Player Versions","0","Test cases around different player versions of systems Passport tries to connect to.","Passed","Vu Nguyen","4/4/2025 10:04 AM","Smoke Test"
+"T97401279","Player Version is Current Mainline Alpha","","C34900471","Device: Pixel 7 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Players: 
+84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+84.1-63110-v16.7-2025_Player_2-GA-1","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","","RC Regression Pass","Android - Phone","R134519","Player Versions","0","Test cases around different player versions of systems Passport tries to connect to.","Passed","Vu Nguyen","4/4/2025 10:09 AM","Smoke Test"
+"T97401280","Localization High-Vis Area Check - Home Feed","","C34900473","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","High-Visibility Areas","1","Quick localization checks in High-Visibility areas throughout Passport in the following languages:
+* English
+* Spanish
+* French
+* German (for egregious truncation)","Passed","Trang Nguyen.","4/4/2025 3:56 AM","Functional"
+"T97401281","Localization High-Vis Area Check - Account (signed out)","","C34900474","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","High-Visibility Areas","1","Quick localization checks in High-Visibility areas throughout Passport in the following languages:
+* English
+* Spanish
+* French
+* German (for egregious truncation)","Passed","Trang Nguyen.","4/4/2025 3:56 AM","Functional"
+"T97401282","Localization High-Vis Area Check - Account (signed in)","","C34900475","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","High-Visibility Areas","1","Quick localization checks in High-Visibility areas throughout Passport in the following languages:
+* English
+* Spanish
+* French
+* German (for egregious truncation)","Passed","Trang Nguyen.","4/4/2025 3:56 AM","Functional"
+"T97401283","Localization High-Vis Area Check - Settings","","C34900476","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","High-Visibility Areas","1","Quick localization checks in High-Visibility areas throughout Passport in the following languages:
+* English
+* Spanish
+* French
+* German (for egregious truncation)","Passed","Trang Nguyen.","4/4/2025 3:56 AM","Functional"
+"T97401284","Localization High-Vis Area Check - Welcome Flow (launch screen)","","C34900477","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","1 - High","","RC Regression Pass","Android - Phone","R134519","High-Visibility Areas","1","Quick localization checks in High-Visibility areas throughout Passport in the following languages:
+* English
+* Spanish
+* French
+* German (for egregious truncation)","Passed","Trang Nguyen.","4/4/2025 3:56 AM","Unassigned"
+"T97401285","Localization High-Vis Area Check - Welcome Flow (EULA & Headphones)","","C34900485","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","","RC Regression Pass","Android - Phone","R134519","High-Visibility Areas","1","Quick localization checks in High-Visibility areas throughout Passport in the following languages:
+* English
+* Spanish
+* French
+* German (for egregious truncation)","Passed","Trang Nguyen.","4/4/2025 3:56 AM","Unassigned"
+"T97401286","The Passport app can be updated over the previous version","","C34928935","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","","RC Regression Pass","Android - Phone","R134519","Install & Update","0","","Passed","Trang Nguyen.","4/4/2025 3:03 AM","Smoke Test"
+"T97401287","The Passport app can be updated over the previous version (BT/Loc permissions accepted)","","C34928970","Samsung Galaxy A73 (Android 13)
+CR: 80.18.24 - 2025 App 2 RC - release (android)
+Player: 
+- 84.1-63110-v16.7-2025_Player_2-GA-1
+- 84.1-63251-v16.7-2025_Player_2-SP-1 (2025 Player 2 SP)
+","","","","","2025 Sprint 7 - R2.1 - RC Regression Test Plan","R134518","0 - Highest","","RC Regression Pass","Android - Phone","R134519","Install & Update","0","","Passed","Trang Nguyen.","4/4/2025 3:03 AM","Unassigned"
