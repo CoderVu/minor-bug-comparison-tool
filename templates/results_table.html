@@ -204,15 +204,19 @@
                 <ul class="nav nav-tabs" id="resultTabs" role="tablist">
                     <li class="nav-item" role="presentation">
                         <button class="nav-link active" id="failed-tab" data-bs-toggle="tab" data-bs-target="#failed"
-                            type="button" role="tab">Failed Cases</button>
+                            type="button" role="tab">Total Failed Cases By Plan</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="failed-by-plan-title-tab" data-bs-toggle="tab"
+                            data-bs-target="#failed-by-plan-title" type="button" role="tab">Failed Only By Plan</button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="nav-link" id="passed-tab" data-bs-toggle="tab" data-bs-target="#passed"
-                            type="button" role="tab">Passed Cases</button>
+                            type="button" role="tab">Passed Cases By Plan</button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="nav-link" id="minor-tab" data-bs-toggle="tab" data-bs-target="#minor"
-                            type="button" role="tab">Minor Bugs</button>
+                            type="button" role="tab">Minor Bugs By Plan</button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="nav-link" id="all-minor-tab" data-bs-toggle="tab" data-bs-target="#all-minor"
@@ -222,6 +226,7 @@
                         <button class="nav-link" id="minor-by-plan-tab" data-bs-toggle="tab"
                             data-bs-target="#minor-by-plan" type="button" role="tab">Minor Bugs By Plan</button>
                     </li>
+                
                 </ul>
 
                 <div class="tab-content" id="resultTabsContent">
@@ -300,34 +305,166 @@
                         <p class="text-muted">This tab shows minor bugs organized by test plan.</p>
 
                         {% if results.minor_by_plan %}
-                        <div class="accordion" id="planAccordion">
-                            {% for plan_name, plan_table in results.minor_by_plan.items() %}
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="heading-{{ loop.index }}">
-                                    <button class="accordion-button {% if not loop.first %}collapsed{% endif %}"
-                                        type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse-{{ loop.index }}"
-                                        aria-expanded="{{ 'true' if loop.first else 'false' }}"
-                                        aria-controls="collapse-{{ loop.index }}">
-                                        {{ plan_name }} ({{ plan_table | count_table_rows }})
-                                    </button>
-                                </h2>
-                                <div id="collapse-{{ loop.index }}"
-                                    class="accordion-collapse collapse {% if loop.first %}show{% endif %}"
-                                    aria-labelledby="heading-{{ loop.index }}">
-                                    <div class="accordion-body">
-                                        <div class="table-responsive">
-                                            {{ plan_table | safe }}
+                        <ul class="nav nav-tabs mb-3" id="planCategoryTabs" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="all-plans-tab" data-bs-toggle="tab"
+                                    data-bs-target="#all-plans" type="button" role="tab">All Plans</button>
+                            </li>
+                            <!-- <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="file1-only-tab" data-bs-toggle="tab"
+                                    data-bs-target="#file1-only-plans" type="button" role="tab">{{ stats.file1_name }}
+                                    Only</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="file2-only-tab" data-bs-toggle="tab"
+                                    data-bs-target="#file2-only-plans" type="button" role="tab">{{ stats.file2_name }}
+                                    Only</button>
+                            </li>
+                         -->
+                        </ul>
+
+                        <div class="tab-content" id="planCategoryTabsContent">
+                            <!-- All Plans Tab -->
+                            <div class="tab-pane fade show active" id="all-plans" role="tabpanel"
+                                aria-labelledby="all-plans-tab">
+                                <div class="accordion" id="planAccordion">
+                                    {% for plan_name, plan_table in results.minor_by_plan.items() %}
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="heading-{{ loop.index }}">
+                                            <button class="accordion-button {% if not loop.first %}collapsed{% endif %}"
+                                                type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapse-{{ loop.index }}"
+                                                aria-expanded="{{ 'true' if loop.first else 'false' }}"
+                                                aria-controls="collapse-{{ loop.index }}">
+                                                {{ plan_name }} ({{ plan_table | count_table_rows }})
+                                            </button>
+                                        </h2>
+                                        <div id="collapse-{{ loop.index }}"
+                                            class="accordion-collapse collapse {% if loop.first %}show{% endif %}"
+                                            aria-labelledby="heading-{{ loop.index }}">
+                                            <div class="accordion-body">
+                                                <div class="table-responsive">
+                                                    {{ plan_table | safe }}
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
+                                    {% endfor %}
                                 </div>
                             </div>
-                            {% endfor %}
+
+                            <!-- File1 Only Plans Tab -->
+                            <div class="tab-pane fade" id="file1-only-plans" role="tabpanel"
+                                aria-labelledby="file1-only-tab">
+                                <div class="accordion" id="file1OnlyAccordion">
+                                    {% set file1_only_count = 0 %}
+                                    {% for plan_name, plan_table in results.minor_by_plan.items() %}
+                                    {% if plan_name.startswith(stats.file1_name + ' Only -') %}
+                                    {% set file1_only_count = file1_only_count + 1 %}
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="file1-heading-{{ loop.index }}">
+                                            <button class="accordion-button {% if not loop.first %}collapsed{% endif %}"
+                                                type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#file1-collapse-{{ loop.index }}"
+                                                aria-expanded="{{ 'true' if loop.first else 'false' }}"
+                                                aria-controls="file1-collapse-{{ loop.index }}">
+                                                {{ plan_name }} ({{ plan_table | count_table_rows }})
+                                            </button>
+                                        </h2>
+                                        <div id="file1-collapse-{{ loop.index }}"
+                                            class="accordion-collapse collapse {% if loop.first %}show{% endif %}"
+                                            aria-labelledby="file1-heading-{{ loop.index }}">
+                                            <div class="accordion-body">
+                                                <div class="table-responsive">
+                                                    {{ plan_table | safe }}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {% endif %}
+                                    {% endfor %}
+                                    {% if file1_only_count == 0 %}
+                                 
+                                    {% endif %}
+                                </div>
+                            </div>
+
+                            <!-- File2 Only Plans Tab -->
+                            <div class="tab-pane fade" id="file2-only-plans" role="tabpanel"
+                                aria-labelledby="file2-only-tab">
+                                <div class="accordion" id="file2OnlyAccordion">
+                                    {% set file2_only_count = 0 %}
+                                    {% for plan_name, plan_table in results.minor_by_plan.items() %}
+                                    {% if plan_name.startswith(stats.file2_name + ' Only -') %}
+                                    {% set file2_only_count = file2_only_count + 1 %}
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="file2-heading-{{ loop.index }}">
+                                            <button class="accordion-button {% if not loop.first %}collapsed{% endif %}"
+                                                type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#file2-collapse-{{ loop.index }}"
+                                                aria-expanded="{{ 'true' if loop.first else 'false' }}"
+                                                aria-controls="file2-collapse-{{ loop.index }}">
+                                                {{ plan_name }} ({{ plan_table | count_table_rows }})
+                                            </button>
+                                        </h2>
+                                        <div id="file2-collapse-{{ loop.index }}"
+                                            class="accordion-collapse collapse {% if loop.first %}show{% endif %}"
+                                            aria-labelledby="file2-heading-{{ loop.index }}">
+                                            <div class="accordion-body">
+                                                <div class="table-responsive">
+                                                    {{ plan_table | safe }}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {% endif %}
+                                    {% endfor %}
+                                    {% if file2_only_count == 0 %}
+                                 
+                                    {% endif %}
+                                </div>
+                            </div>
+
                         </div>
                         {% else %}
                         <div class="alert alert-info">No minor bugs by plan data available.</div>
                         {% endif %}
                     </div>
+                            <!-- Failed By Plan (Title-based) Tab -->
+                            <div class="tab-pane fade" id="failed-by-plan-title" role="tabpanel" aria-labelledby="failed-by-plan-title-tab">
+                                <h3 class="section-title">Failed Cases Only in Plan</h3>
+                                <p class="text-muted">This tab shows failed cases that exist in one plan but don't have matching titles in the other file.</p>
+        
+                                {% if results.failed_by_plan_title %}
+                                <div class="accordion" id="planTitleAccordion">
+                                    {% for plan_name, plan_table in results.failed_by_plan_title.items() %}
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="heading-plantitle-{{ loop.index }}">
+                                            <button class="accordion-button {% if not loop.first %}collapsed{% endif %}"
+                                                type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapse-plantitle-{{ loop.index }}"
+                                                aria-expanded="{{ 'true' if loop.first else 'false' }}"
+                                                aria-controls="collapse-plantitle-{{ loop.index }}">
+                                                {{ plan_name }} ({{ plan_table | count_table_rows }})
+                                            </button>
+                                        </h2>
+                                        <div id="collapse-plantitle-{{ loop.index }}"
+                                            class="accordion-collapse collapse {% if loop.first %}show{% endif %}"
+                                            aria-labelledby="heading-plantitle-{{ loop.index }}">
+                                            <div class="accordion-body">
+                                                <div class="table-responsive">
+                                                    {{ plan_table | safe }}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {% endfor %}
+                                </div>
+                                {% else %}
+                                <div class="alert alert-info">No exclusive failed cases by plan found.</div>
+                                {% endif %}
+                            </div>
+
                 </div>
             </div>
         </div>
