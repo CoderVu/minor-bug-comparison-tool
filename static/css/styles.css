@@ -1,0 +1,92 @@
+/* CSV Comparison Tool Styles */
+
+/* Layout and Components */
+.table-container { overflow-x: auto; }
+.table-responsive { max-height: 500px; }
+
+/* Cards and Containers */
+.summary-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.summary-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* File Input Section */
+.file-input-container {
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    padding: 15px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.remove-file-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    color: #dc3545;
+}
+.remove-file-btn:hover {
+    background-color: #dc3545;
+    color: white;
+    border-color: #dc3545;
+}
+.add-file-btn { margin-bottom: 20px; }
+
+/* Table Styles */
+.table thead th {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 1;
+}
+.matrix-cell {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+}
+.matrix-header {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+.comparison-matrix { margin-bottom: 20px; }
+
+/* Typography */
+.stat-number {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+/* Loading Indicator */
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.8);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loading-content {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
